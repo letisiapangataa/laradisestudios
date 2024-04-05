@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "Laradise Studios",
+    default: "Laradise Studios | Where the magic happens. ",
     template: "%s | Laradise Studios",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Where the magic happens.",
   openGraph: {
     title: "Laradise Studios",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
+      "Where the magic happens.",
+    url: "https://laradisestudios.com",
     siteName: "Laradise Studios",
     images: [
       {
-        url: "https://res.cloudinary.com/louiy9obu/image/upload/v1712313987/LaradiseStudios_LOGO_Transparent_lfxrx1.png",
+        url: "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
         width: 1647,
         height: 1660,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
   },
 };
 const inter = Inter({
