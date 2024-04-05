@@ -6,21 +6,21 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Laradise Studios",
+    template: "%s | Laradise Studios",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
-    title: "chronark.com",
+    title: "Laradise Studios",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "Laradise Studios",
     images: [
       {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
+        url: "https://res.cloudinary.com/louiy9obu/image/upload/v1712313987/LaradiseStudios_LOGO_Transparent_lfxrx1.png",
+        width: 1647,
+        height: 1660,
       },
     ],
     locale: "en-US",
