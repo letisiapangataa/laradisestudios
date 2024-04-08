@@ -26,7 +26,7 @@
     display: block;
     top: 0;
     right: 0;
-    box-shadow: 5px 5px #00000052;
+    box-shadow: 0.7em 0.5em #00000052;
     position: absolute;
   }
 
@@ -34,7 +34,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
+    margin: 2em 0em 2em 0em;
   }
 
   .to-black {
@@ -51,6 +51,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    box-shadow: 1em 0.5em #00000052;
   }
 
   .ls-logo {
@@ -89,23 +90,22 @@
     font-style: normal;
   }
 
-  .rando {
-    color: white;
-  }
-  
+
   .text-zinc-500 {
     --tw-text-opacity: 1;
     color: rgb(255 255 255);
-    font-weight: bold;
     text-shadow: 3px 2px #00000052;
     font-size: 1.3em;
-    z-index: 2000;
+    font-family: "Outfit", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
   }
 
   .ls-width {
     margin-top: -1em;
   }
 }
+
 @media (min-width: 768px) {
 
     .md\:bottom-8 {
