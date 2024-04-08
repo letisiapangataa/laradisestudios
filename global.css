@@ -9,9 +9,88 @@
 }
 
 @media all {
+  .icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon-button svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+  }
+  
+  .hb {
+    width: 10%;
+    display: block;
+    top: 0;
+    right: 0;
+    box-shadow: 5px 5px #00000052;
+    position: absolute;
+  }
+
+  .mt-4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
   .to-black {
     background: rgb(255,4,148);
     background: linear-gradient(90deg, rgba(255,4,148,1) 0%, rgba(252,96,188,1) 35%, rgba(252,44,160,1) 100%);
+  }
+
+  .sidebar {
+    color: black;
+    background: white;
+    width: 40%;
+    font-size: larger;
+    line-height: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ls-logo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .li-menu {
+    /* Add additional styling for links if needed */
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color */
+    font-size: large;
+    color: black;
+    line-height: 2em;
+    font-size: larger;
+    list-style: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .li-menu-sm {
+    /* Add additional styling for links if needed */
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color */
+    font-size: large;
+    color: black;
+    line-height: 2em;
+    font-size: medium;
+    list-style: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .rando {
+    color: white;
   }
   
   .text-zinc-500 {
