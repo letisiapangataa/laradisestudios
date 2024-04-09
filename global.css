@@ -384,11 +384,11 @@
     font-size: 1.3em;
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    margin-bottom: -2em;
+    margin-bottom: 4.5em;
   }
 
   .ls-main-logo {
-    margin-top: 3em;
+    margin-top: -5em;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -397,7 +397,7 @@
 
   .my-16 {
     margin-top: 1rem;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
 }
 
   .sidebar {
