@@ -22,7 +22,7 @@ const Logo: React.FC = () => {
         <img className='ls-logo' src="https://res.cloudinary.com/louiy9obu/image/upload/v1712560322/B_LaradiseStudios_Logo_uet5gq.png" alt="Laradise Studios Logo" width="100%" />
         </p>
         <li className='li-menu'><Link href="/">Home</Link></li>
-        <li className='li-menu'><Link href="/">Apps</Link></li>
+        <li className='li-menu'><Link href="/apps">Apps</Link></li>
         <li className='li-menu'><Link href="/">Games</Link></li>
         <li className='li-menu'><Link href="/">Store</Link></li>
         <li className='li-menu'>-</li>
