@@ -14,6 +14,7 @@ const Logo: React.FC = () => {
 
   return (
     <> 
+
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
       <div className="p-8">
@@ -40,7 +41,7 @@ const Logo: React.FC = () => {
     <Link href="" onClick={toggleSidebar}>
         <Particles
             className="particles"
-            quantity={1300} />
+            quantity={500} />
     </Link>
     
     <img className="ls-main-logo" src="https://res.cloudinary.com/louiy9obu/image/upload/v1712317603/LS_NoPreview_kvsyqs.png" alt="Laradise Studios Logo"></img>
@@ -50,6 +51,7 @@ const Logo: React.FC = () => {
             © 2024 Laradise Studios
         </h2>
     </div>
+
     </>
   );
 };
