@@ -26,7 +26,7 @@
 }
 
   .sidebar-icon {
-    width: 30%;
+    width: 25%;
     display: block;
     top: 0;
     right: 0;
@@ -72,7 +72,7 @@
   }
 
   .ls-logo {
-    width: 20em;
+    width: 12em;
     display: flex;
     justify-content: center;
   }
@@ -334,3 +334,105 @@
 
 } 
 
+@media (max-width: 500px) {
+  body {
+    max-height: 800px; /* Limiting maximum height */
+    overflow-y: auto; /* Adding vertical scrollbar if content exceeds height */
+  }
+
+  .to-black {
+    background: rgb(255,4,148);
+    background: linear-gradient(90deg, rgba(255,4,148,1) 0%, rgba(252,96,188,1) 35%, rgba(252,44,160,1) 100%);
+  }
+
+  .particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    animation: fade-in; /* You need to define 'fade-in' animation separately */
+    z-index: 0;
+}
+
+  .sidebar-icon {
+    width: 20%;
+    display: block;
+    top: 0;
+    right: 0;
+    box-shadow: 0.7em 0.5em #00000052;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .ls-copyright {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+    text-shadow: 3px 2px #00000052;
+    font-size: 1.3em;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+  }
+
+  .ls-main-logo {
+    margin-top: 4em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .my-16 {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  .sidebar {
+    color: black;
+    background: white;
+    width: 75%;
+    font-size: larger;
+    line-height: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1em 0.5em #00000052;
+  }
+
+  .ls-logo {
+    width: 20em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .li-menu {
+    /* Add additional styling for links if needed */
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color */
+    font-size: large;
+    color: black;
+    line-height: 2em;
+    font-size: larger;
+    list-style: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .li-menu-sm {
+    /* Add additional styling for links if needed */
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color */
+    font-size: large;
+    color: black;
+    line-height: 2em;
+    font-size: medium;
+    list-style: none;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+}
