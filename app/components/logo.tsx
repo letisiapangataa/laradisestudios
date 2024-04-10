@@ -36,7 +36,7 @@ const Logo: React.FC = () => {
 
     <div className="animate-fade-in">
         <h2 className="ls-copyright">
-            Click anywhere to get started.
+            Tap anywhere to get started.
         </h2>
      </div>
 
