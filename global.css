@@ -136,6 +136,7 @@
     font-size: 2em;
     margin: 0.2em 0.2em;
     margin-top: 1em;
+    margin-bottom: 1.5em;
   }
 
   .animate-fade-in {
@@ -144,7 +145,7 @@
 
   body {
     max-height: 800px; /* Limiting maximum height */
-    overflow-y: auto; /* Adding vertical scrollbar if content exceeds height */
+    overflow: auto;
   }
 
   .my-16 {
@@ -205,6 +206,7 @@
     display: flex;
     justify-content: center;
     box-shadow: 1em 0.5em #00000052;
+    overflow: auto;
   }
 
   .ls-logo {
@@ -359,7 +361,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 1em 0em 0.5em 0em;
+    margin: 0.5em 0em 0.5em 0em;
   }
 
 
