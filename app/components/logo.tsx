@@ -3,6 +3,7 @@ import React from 'react';
 import Particles from './particles';
 import Link from "next/link";
 import { useState } from 'react';
+import SocialIcons from './socialicons';
 
 const Logo: React.FC = () => {
 
@@ -29,6 +30,7 @@ const Logo: React.FC = () => {
         <li className='li-menu-sm'><Link href="/">Our Story</Link></li>
         <li className='li-menu-sm'><Link href="/">Company Solutions</Link></li>
         <li className='li-menu-sm'><Link href="/">Contact Us</Link></li>
+            <SocialIcons />
       </div>
     </div>
 
