@@ -20,7 +20,7 @@ const Logo: React.FC = () => {
       {/* Sidebar content */}
       <div className="p-8">
         <p className="text-xl font-bold mt-4">
-        <img className='ls-logo' src="https://res.cloudinary.com/louiy9obu/image/upload/v1712560322/B_LaradiseStudios_Logo_uet5gq.png" alt="Laradise Studios Logo" width="100%" />
+        <img className='ls-logo' src="https://asset.cloudinary.com/louiy9obu/a08b885b8ced2b056ed6b68f3c441cb0" alt="Laradise Studios Logo" width="100%" />
         </p>
         <li className='li-menu'><Link href="/">Home</Link></li>
         <li className='li-menu'><Link href="/apps">Apps</Link></li>
