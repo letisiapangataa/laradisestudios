@@ -50,7 +50,7 @@ const Logo: React.FC = () => {
           
     <div className="my-16 text-center animate-fade-in">
         <h2 className="ls-copyright">
-            © 2024 Laradise Studios
+            © 2025 Laradise Studios
         </h2>
     </div>
 
