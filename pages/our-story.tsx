@@ -22,7 +22,7 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
-const Apps: React.FC = () => {
+const OurStory: React.FC = () => {
   
   const [isOpen, setIsOpen] = useState(false);
 
@@ -76,11 +76,12 @@ const Apps: React.FC = () => {
             quantity={500} />
     </Link>
 
+   
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
       <header className="pages-header">
-        <h1 className="text-4xl font-bold">&lt; APPLICATIONS &gt;</h1>
+        <h1 className="text-4xl font-bold">&lt; OUR STORY &gt;</h1>
         <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
       </header>
 
@@ -146,4 +147,4 @@ const Apps: React.FC = () => {
   );
 };
 
-export default Apps;
+export default OurStory;
