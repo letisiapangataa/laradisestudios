@@ -1,4 +1,5 @@
-// pages/example.tsx
+// Laradise Studios (Logo Component / Sidebar Navigation)
+
 import React from 'react';
 import Particles from './particles';
 import Link from "next/link";
