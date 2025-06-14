@@ -82,7 +82,7 @@ const CompanySolutions: React.FC = () => {
       {/* Header Section */}
       <header className="pages-header">
         <h1 className="text-4xl font-bold">&lt; COMPANY SOLUTIONS &gt;</h1>
-        <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
+        <p className="pages-sub-title">Discover how Laradise Studios empowers businesses with tailored digital solutions and innovative technologies.</p>
       </header>
 
       {/* Apps Showcase Section */}
