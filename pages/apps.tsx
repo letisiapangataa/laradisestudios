@@ -11,6 +11,7 @@ import SocialIcons from 'app/components/socialicons';
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 
+
 // Load the fonts
 const inter = Inter({
   subsets: ["latin"],
@@ -32,17 +33,32 @@ const Apps: React.FC = () => {
 
   return (
      <> 
+     <div lang="en" className={[inter.variable, calSans.variable].join(" ")}>
     <Head>
-        <link
+        {/* <Analytics /> */}
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+      <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
         />
+      <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Explore our collection of innovative and creative applications at Laradise Studios." />
+        <title>Applications | Laradise Studios</title>
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
       <div className="p-8">
         <p className="text-xl font-bold mt-4">
-        <img className='ls-logo' src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps" alt="Laradise Studios Logo" width="100%" />
+          <Link href="/">
+            <img
+              className="ls-logo"
+              src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps"
+              alt="Laradise Studios Logo"
+              width="100%"
+            />
+          </Link>
         </p>
         <li className="li-menu">
           <Link href="/">Home</Link>
@@ -141,6 +157,7 @@ const Apps: React.FC = () => {
       <footer className="pages-footer text-center py-2 bg-gray-800 text-white">
         <p>© 2025 Laradise Studios. All Rights Reserved.</p>
       </footer>
+    </div>
     </div>
     </>
   );

@@ -37,12 +37,29 @@ const Store: React.FC = () => {
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
         />
+         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+       <link
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>Store | Laradise Studios</title>
+        <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
+        <meta name="description" content="Explore our unique range of collectibles and items available in our store." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
       <div className="p-8">
         <p className="text-xl font-bold mt-4">
-        <img className='ls-logo' src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps" alt="Laradise Studios Logo" width="100%" />
+            <Link href="/">
+            <img
+              className="ls-logo"
+              src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps"
+              alt="Laradise Studios Logo"
+              width="100%"
+            />
+          </Link>        
         </p>
         <li className="li-menu">
           <Link href="/">Home</Link>
@@ -66,7 +83,7 @@ const Store: React.FC = () => {
         <li className="li-menu-sm">
           <Link href="/contact-us">Contact Us</Link>
         </li>
-        <SocialIcons />
+       <SocialIcons />
       </div>
     </div>
 
@@ -82,7 +99,7 @@ const Store: React.FC = () => {
       {/* Header Section */}
       <header className="pages-header">
         <h1 className="text-4xl font-bold">&lt; STORE &gt;</h1>
-        <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
+        <p className="pages-sub-title">Our unique range of collectibles and items.</p>
       </header>
 
       {/* Apps Showcase Section */}

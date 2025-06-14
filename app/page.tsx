@@ -26,7 +26,14 @@ export default function Home() {
       {/* Sidebar content */}
       <div className="p-8">
         <p className="text-xl font-bold mt-4">
-        <img className='ls-logo' src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps" alt="Laradise Studios Logo" width="100%" />
+            <Link href="/">
+            <img
+              className="ls-logo"
+              src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps"
+              alt="Laradise Studios Logo"
+              width="100%"
+            />
+          </Link>        
         </p>
         <li className="li-menu">
           <Link href="/">Home</Link>
@@ -38,7 +45,7 @@ export default function Home() {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/story">Store</Link>
+          <Link href="/store">Store</Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
