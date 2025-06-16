@@ -129,7 +129,7 @@ const ContactUs: React.FC = () => {
               });
 
               if (response.ok) {
-              alert(`Thank you, ${data.name}! We've received your message and will get back to you shortly.`);
+              alert(`We've received your message and will get back to you shortly.`);
               (form as HTMLFormElement).reset();
               } else {
               alert("Sorry, there was an error sending your message.");
