@@ -71,7 +71,9 @@ const OurStory: React.FC = () => {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/store">Store</Link>
+          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
+            Store
+          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">

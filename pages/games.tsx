@@ -71,7 +71,9 @@ const Games: React.FC = () => {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/store">Store</Link>
+          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
+            Store
+          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
@@ -113,21 +115,13 @@ const Games: React.FC = () => {
 
       {/* Apps - Published with Modern Technologies */}
         <div className="pages-apps-published">
-          <h2>PUBLISHED WITH MODERN TECHNOLOGIES</h2>
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
-          </div>
+            <h2 className="text-2xl font-semibold text-gray-800"></h2>
+            <div className="pages-apps-tech-container">
+              <p className="text-gray-700 text-base">
+                Our games are crafted using the latest technologies, ensuring a seamless and engaging experience.
+              </p>
+            </div>
+            
         </div>
 
         {/* Apps - App Preview */}

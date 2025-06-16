@@ -71,7 +71,9 @@ const CompanySolutions: React.FC = () => {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/store">Store</Link>
+          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
+            Store
+          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
@@ -113,40 +115,10 @@ const CompanySolutions: React.FC = () => {
 
       {/* Apps - Published with Modern Technologies */}
         <div className="pages-apps-published">
-          <h2>PUBLISHED WITH MODERN TECHNOLOGIES</h2>
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
+          <div className="pages-sub-title-desc">
+              Laradise Studios delivers tailored digital solutions for businesses, leveraging modern technologies to drive innovation, efficiency, and growth. 
           </div>
         </div>
-
-        {/* Apps - App Preview */}
-        <div className="pages-apps-preview">
-        <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 1"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 2"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 3"
-          />
-        </div>
-      </div>
 
         {/* Apps - Slideshow #2 */}
         <div className="pages-apps-slideshow">

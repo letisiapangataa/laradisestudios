@@ -10,6 +10,8 @@ import { useState } from 'react';
 import SocialIcons from 'app/components/socialicons';
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
+// Update the path below if the actual file is named 'Slideshow.tsx' or located elsewhere
+import Slideshow from '../app/components/slideshow';
 
 
 // Load the fonts
@@ -55,7 +57,7 @@ const Apps: React.FC = () => {
             <img
               className="ls-logo"
               src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps"
-              alt="Laradise Studios Logo"
+              alt="Laradise Studios - Where the magic happens."
               width="100%"
             />
           </Link>
@@ -70,7 +72,9 @@ const Apps: React.FC = () => {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/store">Store</Link>
+          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
+            Store
+          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
@@ -106,7 +110,16 @@ const Apps: React.FC = () => {
 
       {/* Apps - Slideshow #1*/}
         <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #1</h2>
+          <Slideshow
+            slides={[
+              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
+              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
+              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
+            ]}
+            interval={2000}
+            showArrows={true}
+            showIndicators={true}
+          />
         </div>
 
       {/* Apps - Published with Modern Technologies */}
@@ -146,9 +159,27 @@ const Apps: React.FC = () => {
         </div>
       </div>
 
+     {/* Apps - Published with Modern Technologies */}
+        <div className="pages-apps-published-desc">
+           <div className="pages-apps-tech-container">
+                <p className="text-gray-700 text-base">
+                We build our applications with cutting-edge technologies to deliver smooth, reliable, and engaging user experiences.
+                </p>
+            </div>   
+        </div>
+
         {/* Apps - Slideshow #2 */}
         <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #2</h2>
+          <Slideshow
+            slides={[
+              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
+              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
+              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
+            ]}
+            interval={2000}
+            showArrows={true}
+            showIndicators={true}
+          />
         </div>
 
       </section>

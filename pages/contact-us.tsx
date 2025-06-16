@@ -71,7 +71,9 @@ const ContactUs: React.FC = () => {
           <Link href="/games">Games</Link>
         </li>
         <li className="li-menu">
-          <Link href="/store">Store</Link>
+          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
+            Store
+          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
@@ -90,67 +92,86 @@ const ContactUs: React.FC = () => {
     <Link href="" onClick={toggleSidebar}>
         <Particles
             className="particles"
-            quantity={500} />
+            quantity={100} />
     </Link>
 
    
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header">
+      <header className="pages-header-contact">
         <h1 className="text-4xl font-bold">&lt; CONTACT US &gt;</h1>
         <p className="pages-sub-title">Get in touch with us for questions, feedback, or partnership opportunities.</p>
       </header>
 
-      {/* Apps Showcase Section */}
+      {/* Contact Us Form Section*/}
 
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #1</h2>
-        </div>
+        <div className="contact-form-container flex items-center justify-center min-h-screen bg-gray-100">
+            <form
+            className="contact-form flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md max-w-md mx-auto"
+            onSubmit={async (e: React.FormEvent<HTMLFormElement>) => {
+              e.preventDefault();
+              const form = e.currentTarget;
+              const formData = new FormData(form);
+              const data = {
+              name: formData.get("name") as string,
+              email: formData.get("email") as string,
+              message: formData.get("message") as string,
+              };
 
-      {/* Apps - Published with Modern Technologies */}
-        <div className="pages-apps-published">
-          <h2>PUBLISHED WITH MODERN TECHNOLOGIES</h2>
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
-          </div>
-        </div>
+              // Send form data to an API route that will use nodemailer
+              const response = await fetch("/api/contact", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(data),
+              });
 
-        {/* Apps - App Preview */}
-        <div className="pages-apps-preview">
-        <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 1"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 2"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 3"
-          />
-        </div>
-      </div>
-
-        {/* Apps - Slideshow #2 */}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #2</h2>
+              if (response.ok) {
+              alert(`Thank you, ${data.name}! We've received your message and will get back to you shortly.`);
+              (form as HTMLFormElement).reset();
+              } else {
+              alert("Sorry, there was an error sending your message.");
+              }
+            }}
+            >
+            <label className="font-semibold">
+              Name
+              <input
+              className="mt-1 block w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              type="text"
+              name="name"
+              required
+              autoComplete="name"
+              />
+            </label>
+            <label className="font-semibold">
+              Email Address
+              <input
+              className="mt-1 block w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              type="email"
+              name="email"
+              required
+              autoComplete="email"
+              />
+            </label>
+            <label className="font-semibold">
+              Message
+              <textarea
+              className="mt-1 block w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
+              name="message"
+              rows={4}
+              required
+              />
+            </label>
+            <button
+              type="submit"
+              className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition"
+            >
+              Send Message
+            </button>
+            </form>
         </div>
 
       </section>
