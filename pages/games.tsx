@@ -129,7 +129,7 @@ const Games: React.FC = () => {
 
       <header className="pages-header-games">
         <h1 className="text-4xl font-bold">&lt; POWERED BY LARADISE STUDIOS &gt;</h1>
-        <p className="pages-sub-title">Our games are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
+        <p className="pages-sub-title">We use cutting-edge technology to craft unique and captivating gameplay experiences for everyone.</p>
       </header>
 
         {/* Apps - App Preview */}
