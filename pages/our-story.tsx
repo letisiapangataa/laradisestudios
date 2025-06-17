@@ -114,46 +114,10 @@ const OurStory: React.FC = () => {
         </div>
 
       {/* Apps - Published with Modern Technologies */}
-        <div className="pages-apps-published">
-          <h2>PUBLISHED WITH MODERN TECHNOLOGIES</h2>
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
-          </div>
-        </div>
-
-        {/* Apps - App Preview */}
-        <div className="pages-apps-preview">
-        <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 1"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 2"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 3"
-          />
-        </div>
-      </div>
-
-        {/* Apps - Slideshow #2 */}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #2</h2>
-        </div>
+      <header className="pages-header">
+        <h1 className="text-4xl font-bold">&lt; LARADISE PROJECTS TO LARADISE STUDIOS &gt;</h1>
+        <p className="pages-sub-title">Laradise Studios was founded to turn creative dreams into reality, blending innovation and passion to deliver unique digital experiences.</p>
+      </header>
 
       </section>
 

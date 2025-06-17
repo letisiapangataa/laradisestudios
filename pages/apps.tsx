@@ -123,8 +123,10 @@ const Apps: React.FC = () => {
         </div>
 
       {/* Apps - Published with Modern Technologies */}
+       <header className="pages-header-apps">
+        <h1 className="text-4xl font-bold">&lt; PUBLISHED WITH MODERN TECHNOLOGIES &gt;</h1>
+        <p className="pages-sub-title">Our applications are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
         <div className="pages-apps-published">
-          <h2>PUBLISHED WITH MODERN TECHNOLOGIES</h2>
           <div>
             <img
               src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
@@ -140,9 +142,10 @@ const Apps: React.FC = () => {
             />
           </div>
         </div>
+      </header>
 
         {/* Apps - App Preview */}
-        <div className="pages-apps-preview">
+        {/* <div className="pages-apps-preview">
         <div className="image-container">
           <img
             src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
@@ -157,16 +160,7 @@ const Apps: React.FC = () => {
             alt="Preview 3"
           />
         </div>
-      </div>
-
-     {/* Apps - Published with Modern Technologies */}
-        <div className="pages-apps-published-desc">
-           <div className="pages-apps-tech-container">
-                <p className="text-gray-700 text-base">
-                We build our applications with cutting-edge technologies to deliver smooth, reliable, and engaging user experiences.
-                </p>
-            </div>   
-        </div>
+      </div> */}
 
         {/* Apps - Slideshow #2 */}
         <div className="pages-apps-slideshow">

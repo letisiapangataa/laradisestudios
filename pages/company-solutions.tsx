@@ -10,6 +10,7 @@ import { useState } from 'react';
 import SocialIcons from 'app/components/socialicons';
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
+import Slideshow from '../app/components/slideshow';
 
 // Load the fonts
 const inter = Inter({
@@ -106,24 +107,28 @@ const CompanySolutions: React.FC = () => {
 
       {/* Apps Showcase Section */}
 
+      <div className="pages-apps-slideshow">
+          <Slideshow
+            slides={[
+              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
+              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
+              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
+            ]}
+            interval={2000}
+            showArrows={true}
+            showIndicators={true}
+          />
+      </div>
+
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
-
-      {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #1</h2>
-        </div>
-
-      {/* Apps - Published with Modern Technologies */}
-        <div className="pages-apps-published">
-          <div className="pages-sub-title-desc">
-              Laradise Studios delivers tailored digital solutions for businesses, leveraging modern technologies to drive innovation, efficiency, and growth. 
-          </div>
-        </div>
-
-        {/* Apps - Slideshow #2 */}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #2</h2>
-        </div>
+      <header className="pages-header">
+        <h1 className="text-4xl font-bold">&lt; GET IN TOUCH WITH US &gt;</h1>
+        <p className="pages-sub-title">     
+        <Link href="/contact-us">
+          📩 Contact Us to explore more tailored solutions.
+        </Link>
+        </p>
+      </header>
 
       </section>
 

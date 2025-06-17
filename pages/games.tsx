@@ -8,8 +8,10 @@ import Particles from 'app/components/particles';
 import Link from "next/link";
 import { useState } from 'react';
 import SocialIcons from 'app/components/socialicons';
+import Slideshow from 'app/components/slideshow';
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
+import SlideshowGames from '@/app/components/slideshow-games';
 
 // Load the fonts
 const inter = Inter({
@@ -109,23 +111,29 @@ const Games: React.FC = () => {
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
 
       {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #1</h2>
+      {/* Apps - Slideshow #1*/}
+        <div className="pages-apps-slideshow-games">
+          <SlideshowGames
+            slides={[
+              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
+              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
+              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
+            ]}
+            interval={2000}
+            showArrows={true}
+            showIndicators={true}
+          />
         </div>
 
       {/* Apps - Published with Modern Technologies */}
-        <div className="pages-apps-published">
-            <h2 className="text-2xl font-semibold text-gray-800"></h2>
-            <div className="pages-apps-tech-container">
-              <p className="text-gray-700 text-base">
-                Our games are crafted using the latest technologies, ensuring a seamless and engaging experience.
-              </p>
-            </div>
-            
-        </div>
+
+      <header className="pages-header-games">
+        <h1 className="text-4xl font-bold">&lt; POWERED BY LARADISE STUDIOS &gt;</h1>
+        <p className="pages-sub-title">Our games are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
+      </header>
 
         {/* Apps - App Preview */}
-        <div className="pages-apps-preview">
+        {/* <div className="pages-apps-preview">
         <div className="image-container">
           <img
             src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
@@ -139,12 +147,21 @@ const Games: React.FC = () => {
             src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
             alt="Preview 3"
           />
-        </div>
-      </div>
+        </div> 
+      </div> */}
 
         {/* Apps - Slideshow #2 */}
-        <div className="pages-apps-slideshow">
-          <h2 className="text-2xl font-semibold text-gray-800">Apps - Slideshow #2</h2>
+        <div className="pages-apps-slideshow-games">
+          <SlideshowGames
+            slides={[
+              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
+              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
+              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
+            ]}
+            interval={2000}
+            showArrows={true}
+            showIndicators={true}
+          />
         </div>
 
       </section>

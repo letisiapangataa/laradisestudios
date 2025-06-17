@@ -451,7 +451,43 @@
     padding: 4em 5em 4em 5em;
   }
 
+  .pages-header-games {
+    width: 100%;
+    height: 300px; /* Adjust height as needed - 200px when the circled apps are added */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 4em 5em 4em 5em;
+  }
+
+    .pages-header-apps {
+    width: 100%;
+    height: 400px; /* Adjust height as needed - 300px if circled apps are added */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 4em 5em 4em 5em;
+  }
+
+   .pages-header-apps h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
   .pages-header h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .pages-header-games h1 {
     font-size: 2em;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -519,7 +555,7 @@
 
   .pages-apps-slideshow {
     width: 100%;
-    height: 500px; /* Adjust height as needed */
+    height: 700px; /* Adjust height as needed */
     background-color: #ececec; /* Light gray background */
     display: flex;
     justify-content: center;
@@ -528,6 +564,46 @@
     font-family: "ocr-a-std", monospace;
     font-size: 0.9em;
   }
+
+    .pages-apps-slideshow-games {
+    width: 100%;
+    height: 700px; /* Adjust height as needed */
+    background-color: #ececec; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+  }
+
+
+    .pages-apps-published-cs {
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 2em;
+    padding-top: 5em;
+    padding-right: 10em;
+    padding-left: 10em;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .pages-sub-title-desc-cs {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+    padding-top: 0em;
+  }
+
 
   .pages-apps-published {
     width: 100%;
@@ -603,10 +679,108 @@
     transform: scale(1.05); /* Slightly enlarge the image on hover */
   }
 
+  .pages-apps-slideshow {
+    width: 100%;
+    height: 700px; /* Adjust height as needed */
+    background-color: #ececec; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+  }
 
+  .pages-apps-published {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+    padding-top: 2em;
+  }
+
+  .pages-apps-published-desc {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+    padding-top: 0em;
+  }
+
+  .pages-apps-published h2 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1em;
+    text-transform: capitalize;
+  }
+
+  .pages-apps-published div {
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    gap: 3rem; /* Add spacing between the images */
+  }
+
+  .pages-apps-published-desc div {
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    gap: 3rem; /* Add spacing between the images */
+  }
+  
+  .pages-apps-published img {
+    width: 180px; /* Resize the images to make them smaller */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  .our-story {
+    margin: 1em;
+    text-align: center;
+  }
+
+  .our-story.image-container {
+    display: flex; /* Align images in a row */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    gap: 4em; /* Add spacing between the images */
+    padding: 5em;
+    height: 500px;
+  }
+
+  .our-story img {
+    width: 350px; /* Resize the images */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    transition: transform 0.3s ease; /* Optional: Add hover effect */
+  }
+
+  .our-story img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+  }
   .li-menu,
   .li-menu-sm {
     font-family: "Outfit", sans-serif;
+  }
+
+  .pages-game-gameboy {
+    width: 100%;
+    /* height: 500px; */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+
+   .pages-game-gameboy img{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
   }
 } 
 

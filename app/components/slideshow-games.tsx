@@ -4,9 +4,7 @@ type Slide = {
     image: string;
     title: string;
     description: string;
-
 };
-
 
 type SlideshowProps = {
   slides: Slide[];
@@ -17,7 +15,7 @@ type SlideshowProps = {
   showIndicators: boolean;
 };
 
-const Slideshow: React.FC<SlideshowProps> = ({
+const SlideshowGames: React.FC<SlideshowProps> = ({
     slides,
     width = "100%",
     height = 700,
@@ -152,4 +150,4 @@ const Slideshow: React.FC<SlideshowProps> = ({
     );
 };
 
-export default Slideshow;
+export default SlideshowGames;
