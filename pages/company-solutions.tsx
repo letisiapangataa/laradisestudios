@@ -125,7 +125,7 @@ const CompanySolutions: React.FC = () => {
         <h1 className="text-4xl font-bold">&lt; GET IN TOUCH WITH US &gt;</h1>
         <p className="pages-sub-title">     
         <Link href="/contact-us">
-          📩 Contact Us to explore more tailored solutions.
+          📩 <strong>Contact Us</strong> to explore more tailored solutions.
         </Link>
         </p>
       </header>
