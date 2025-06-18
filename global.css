@@ -15,127 +15,14 @@
   src: url(https://use.typekit.net/oqd0ljw.css);
 }
 
-
-@media (min-width: 414px) and (max-height: 896px) {
-  .animate-fade-in {
-    animation: fade-in 1s ease-in-out forwards;
-  }
-  
-  .my-16 {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-  }
-
-  .particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    animation: fade-in; /* You need to define 'fade-in' animation separately */
-    z-index: 0;
+@font-face {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://use.typekit.net/oqd0ljw.css);
 }
 
-  .sidebar-icon {
-    width: 25%;
-    display: block;
-    top: 0;
-    right: 0;
-    box-shadow: 0.7em 0.5em #00000052;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .icon-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .icon-button svg {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2;
-  }
-
-  .mt-4 {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 1em 0em 1em 0em;
-  }
-  
-  .to-black {
-    background: rgb(255,4,148);
-    background: linear-gradient(90deg, rgba(255,4,148,1) 0%, rgba(252,96,188,1) 35%, rgba(252,44,160,1) 100%);
-  }
-
-  .sidebar {
-    color: black;
-    background: white;
-    width: 65%;
-    font-size: larger;
-    line-height: 5em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    box-shadow: 1em 0.5em #00000052;
-  }
-
-  .ls-logo {
-    width: 12em;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .li-menu {
-    /* Add additional styling for links if needed */
-    text-decoration: none; /* Remove default underline */
-    color: inherit; /* Inherit text color */
-    font-size: large;
-    color: black;
-    line-height: 2em;
-    font-size: larger;
-    list-style: none;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-  .li-menu-sm {
-    /* Add additional styling for links if needed */
-    text-decoration: none; /* Remove default underline */
-    color: inherit; /* Inherit text color */
-    font-size: large;
-    color: black;
-    line-height: 2em;
-    font-size: medium;
-    list-style: none;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-
-  .ls-copyright {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255);
-    text-shadow: 3px 2px #00000052;
-    font-size: 1.3em;
-    font-family: "Outfit", sans-serif;
-    font-style: normal;
-    margin-bottom: 1.5em;
-  }
-
-  .ls-main-logo {
-    margin-top: -1em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    width: 70%;
-  }
-}
+/* Media Queries for all devices */
 
 @media all {
 
@@ -451,6 +338,16 @@
     padding: 4em 5em 4em 5em;
   }
 
+  .pages-header-cs {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 4em 5em 4em 5em;
+  }
+
   .pages-header-games {
     width: 100%;
     height: 300px; /* Adjust height as needed - 200px when the circled apps are added */
@@ -487,6 +384,22 @@
     padding: 1em;
   }
 
+  .pages-header-cs h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .pages-header-story h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
   .pages-header-games h1 {
     font-size: 2em;
     font-weight: bolder;
@@ -496,6 +409,14 @@
   }
 
   .pages-sub-title {
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0em;
+  }
+
+  .pages-sub-title-cs {
     font-size: 1em;
     font-weight: normal;
     letter-spacing: 1px;
@@ -784,7 +705,9 @@
   }
 } 
 
-@media (max-width: 500px) {
+/* Media Queries for smaller screens */
+
+@media (min-width: 400px) and (max-width: 500px) {
   .animate-fade-in {
     animation: fade-in 1s ease-in-out forwards;
   }
@@ -864,7 +787,7 @@
   }
 
   .ls-logo {
-    width: 14em;
+    width: 12.5em;
     display: flex;
     justify-content: center;
   }
@@ -898,6 +821,172 @@
     font-weight: <weight>;
     font-style: normal;
   }
+  .pages-header h1 {
+    font-size: 1.7em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .pages-header {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 3.5em 5em 4em 5em;
+  }
+  .pages-header-story {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 3em 5em 4em 5em;
+  }
+  .pages-sub-title {
+      font-size: 0.8em;
+      font-weight: normal;
+      letter-spacing: 1px;
+      text-align: center;
+      padding-bottom: 1em;
+      line-height: 1.7em;
+  }
+  .pages-header-apps h1 {
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .pages-footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.7em;
+  }
+  .pages-apps-published {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    font-size: 0.9em;
+    padding-top: 2em;
+  }
+  .pages-header-apps {
+    width: 100%;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 4em 2em 4em 2em;
+  }
+  .pages-apps-published img {
+    width: 100px; /* Resize the images to make them smaller */
+    height: auto;
+  }
+  .pages-apps-published div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .pages-header-games h1 {
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1.2em;
+  }
+  .pages-header-games {
+    width: 100%;
+    height: 227px; /* Adjust height as needed - 200px when the circled apps are added */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 3em 0em 3em 0em;
+  }
+  .pages-header-story h1 {
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .pages-sub-title-story {
+      font-size: 0.8em;
+      font-weight: normal;
+      letter-spacing: 1px;
+      text-align: center;
+      padding-bottom: 1em;
+      line-height: 1.6em;
+  }
+  .pages-header-cs {
+    width: 100%;
+    height: 235px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 4em 3.5em 4em 3.5em;
+  }
+  .pages-header-cs h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .pages-header-cs h2 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .pages-sub-title-cs {
+    font-size: 0.8em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0em;
+    line-height: 1.7em;
+  }
+  .pages-header-contact {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "ocr-a-std", monospace;
+    padding: 3em 5em 0em 5em;
+  }
 
+  .pages-header-contact h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
 
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 4em;
+  }
 }

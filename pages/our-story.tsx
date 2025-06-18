@@ -114,9 +114,9 @@ const OurStory: React.FC = () => {
         </div>
 
       {/* Apps - Published with Modern Technologies */}
-      <header className="pages-header">
+      <header className="pages-header-story">
         <h1 className="text-4xl font-bold">&lt; LARADISE PROJECTS TO LARADISE STUDIOS &gt;</h1>
-        <p className="pages-sub-title">Laradise Studios was founded to turn creative dreams into reality, blending innovation and passion to deliver unique digital experiences.</p>
+        <p className="pages-sub-title-story">Laradise Studios was founded to turn creative dreams into reality, blending innovation and passion to deliver unique digital experiences.</p>
       </header>
 
       </section>

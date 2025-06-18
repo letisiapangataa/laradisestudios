@@ -100,9 +100,9 @@ const CompanySolutions: React.FC = () => {
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header">
+      <header className="pages-header-cs">
         <h1 className="text-4xl font-bold">&lt; COMPANY SOLUTIONS &gt;</h1>
-        <p className="pages-sub-title">We empower organisations with digital solutions and innovative technologies.</p>
+        <p className="pages-sub-title-cs">We empower organisations with digital solutions and innovative technologies.</p>
       </header>
 
       {/* Apps Showcase Section */}
@@ -121,8 +121,8 @@ const CompanySolutions: React.FC = () => {
       </div>
 
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
-      <header className="pages-header">
-        <h1 className="text-4xl font-bold">&lt; GET IN TOUCH WITH US &gt;</h1>
+      <header className="pages-header-cs">
+        <h2 className="text-4xl font-bold">&lt; GET IN TOUCH WITH US &gt;</h2>
         <p className="pages-sub-title">     
         <Link href="/contact-us">
           📩 <strong>Contact Us</strong> to explore more tailored solutions.
