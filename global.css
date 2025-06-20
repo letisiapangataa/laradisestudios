@@ -368,6 +368,17 @@
     padding: 4em 3em 4em 3em;
   }
 
+  .pages-header-cs-intro {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+     font-family: "Outfit", sans-serif;
+    padding: 4em 3em 4em 3em;
+  }
+
+
   .pages-header-games {
     width: 100%;
     height: 300px; /* Adjust height as needed - 200px when the circled apps are added */
@@ -412,6 +423,14 @@
     padding: 1em;
   }
 
+  .pages-header-cs-intro h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
   .pages-header-story h1 {
     font-size: 2em;
     font-weight: bolder;
@@ -429,6 +448,15 @@
   }
 
   .pages-header-cs h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
+  
+  .pages-header-cs-intro h1 {
     font-size: 2em;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -875,26 +903,26 @@
   }
   .pages-header {
     width: 100%;
-    height: 240px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    padding: 4em 4em 4em 4em;
+    padding: 4.5em 5em 4em 5em;
     font-family: "Outfit", sans-serif;
   }
   .pages-header-story {
     width: 100%;
-    height: 240px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    padding: 4em 4em 4em 4em;
-     font-family: "Outfit", sans-serif;
+    padding: 4.5em 6em 4em 6em;
+    line-height: 2em;
+    font-family: "Outfit", sans-serif;
   }
-
   .pages-header-story-content {
     width: 100%;
-    height: 280px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     z-index: 2000;
@@ -970,7 +998,7 @@
   }
   .pages-header-games {
     width: 100%;
-    height: 250px;
+    height: 225px;
     justify-content: center;
     align-items: center;
     z-index: 2000;
@@ -1000,18 +1028,82 @@
     text-align: center;
     padding-bottom: 1em;
     line-height: 1.6em;
-     font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-serif;
   }
   
   .pages-header-cs {
     width: 100%;
-    height: 220px; /* Adjust height as needed */
+    height: 200px; /* Adjust height as needed */
     justify-content: center;
     align-items: center;
     z-index: 2000;
     padding: 4em 3em 4em 3em;
      font-family: "Outfit", sans-serif;
   }
+
+  .pages-header-cs-intro {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 4.7em 5em 4em 5em;
+    font-family: "Outfit", sans-serif;
+  }
+
+   .pages-header-cs-intro h1 {
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+     font-family: "Outfit", sans-serif;
+  }
+  .pages-header-cs-intro h2 {
+    font-size: 0.95em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+     font-family: "Outfit", sans-serif;
+  }
+
+  .pages-header-games-intro {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 4.5em 5em 4em 5em;
+     font-family: "Outfit", sans-serif;
+  }
+
+ .pages-header-games-intro h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+     font-family: "Outfit", sans-serif;
+  }
+  .pages-header-games-intro h2 {
+    font-size: 0.95em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0.5em;
+     font-family: "Outfit", sans-serif;
+  }
+  .pages-sub-title-games-intro {
+    font-size: 0.8em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0em;
+    line-height: 1.7em;
+     font-family: "Outfit", sans-serif;
+  }
+
   .pages-header-cs h1 {
     font-size: 1.1em;
     font-weight: bolder;
@@ -1029,7 +1121,7 @@
      font-family: "Outfit", sans-serif;
   }
   .pages-sub-title-cs {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;

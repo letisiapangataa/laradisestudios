@@ -100,7 +100,7 @@ const CompanySolutions: React.FC = () => {
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header-cs">
+      <header className="pages-header-cs-intro">
         <h1 className="text-4xl font-bold">COMPANY SOLUTIONS</h1>
         <p className="pages-sub-title-cs">We empower organisations with digital solutions and innovative technologies.</p>
       </header>

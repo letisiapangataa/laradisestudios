@@ -101,9 +101,9 @@ const Games: React.FC = () => {
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header">
+      <header className="pages-header-games-intro">
         <h1 className="text-4xl font-bold">GAMES</h1>
-        <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
+        <p className="pages-sub-title-games-intro">Explore our collection of innovative and creative applications.</p>
       </header>
 
       {/* Apps Showcase Section */}
