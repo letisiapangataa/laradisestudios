@@ -61,7 +61,7 @@
   gap: 1rem;
   width: 50%;
   margin: 2rem auto;
-  padding-bottom: 7em;
+  padding-bottom: 6em;
 }
 
 .contact-form label {
@@ -378,6 +378,15 @@
     padding: 4em 3em 4em 3em;
   }
 
+  .pages-header-games-intro {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+     font-family: "Outfit", sans-serif;
+    padding: 4em 5em 4em 5em;
+  }
 
   .pages-header-games {
     width: 100%;
@@ -389,7 +398,7 @@
     padding: 4em 5em 4em 5em;
   }
 
-    .pages-header-apps {
+  .pages-header-apps {
     width: 100%;
     height: 400px; /* Adjust height as needed - 300px if circled apps are added */
     justify-content: center;
@@ -399,7 +408,7 @@
     padding: 4em 5em 4em 5em;
   }
 
-   .pages-header-apps h1 {
+  .pages-header-apps h1 {
     font-size: 2em;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -415,7 +424,23 @@
     padding: 1em;
   }
 
+  .pages-header-games-intro h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
   .pages-header-cs h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .pages-header-games-intro h2 {
     font-size: 2em;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -489,6 +514,14 @@
   }
 
   .pages-sub-title-story {
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0em;
+  }
+
+  .pages-sub-title-games-intro{
     font-size: 1em;
     font-weight: normal;
     letter-spacing: 1px;
@@ -998,11 +1031,11 @@
   }
   .pages-header-games {
     width: 100%;
-    height: 250px;
+    height: 80%;
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    padding: 3.5em 3em 4em 3em;
+    padding: 60px 3em 4em 3em;
      font-family: "Outfit", sans-serif;
   }
   .pages-header-story h1 {
@@ -1070,11 +1103,11 @@
 
   .pages-header-games-intro {
     width: 100%;
-    height: 250px;
+    height: 80%;
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    padding: 4.5em 5em 4em 5em;
+    padding: 4.3em 5em 4em 5em;
      font-family: "Outfit", sans-serif;
   }
 
@@ -1131,7 +1164,7 @@
   }
   .pages-header-contact {
     width: 100%;
-    height: 220px;
+    height: 80%;
     justify-content: center;
     align-items: center;
     z-index: 2000;
