@@ -100,7 +100,7 @@ const Apps: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header">
-        <h1 className="text-4xl font-bold">&lt; APPLICATIONS &gt;</h1>
+        <h1 className="text-4xl font-bold">APPLICATIONS</h1>
         <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
       </header>
 
@@ -124,7 +124,7 @@ const Apps: React.FC = () => {
 
       {/* Apps - Published with Modern Technologies */}
        <header className="pages-header-apps">
-        <h1 className="text-4xl font-bold">&lt; PUBLISHED WITH MODERN TECHNOLOGIES &gt;</h1>
+        <h1 className="text-4xl font-bold">PUBLISHED WITH MODERN TECHNOLOGIES</h1>
         <p className="pages-sub-title">Our applications are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
         <div className="pages-apps-published">
           <div>

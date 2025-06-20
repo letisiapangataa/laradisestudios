@@ -102,7 +102,7 @@ const Games: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header">
-        <h1 className="text-4xl font-bold">&lt; GAMES &gt;</h1>
+        <h1 className="text-4xl font-bold">GAMES</h1>
         <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
       </header>
 
@@ -128,7 +128,7 @@ const Games: React.FC = () => {
       {/* Apps - Published with Modern Technologies */}
 
       <header className="pages-header-games">
-        <h1 className="text-4xl font-bold">&lt; POWERED BY LARADISE STUDIOS &gt;</h1>
+        <h1 className="text-4xl font-bold">POWERED BY LARADISE STUDIOS</h1>
         <p className="pages-sub-title">We use cutting-edge technology to craft unique and captivating gameplay experiences for everyone.</p>
       </header>
 

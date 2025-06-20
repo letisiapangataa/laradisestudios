@@ -100,7 +100,7 @@ const ContactUs: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header-contact">
-        <h1 className="text-4xl font-bold">&lt; CONTACT US &gt;</h1>
+        <h1 className="text-4xl font-bold">CONTACT US</h1>
         <p className="pages-sub-title">Get in touch with us for questions, feedback, or partnership opportunities.</p>
       </header>
 

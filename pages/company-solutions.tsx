@@ -101,7 +101,7 @@ const CompanySolutions: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header-cs">
-        <h1 className="text-4xl font-bold">&lt; COMPANY SOLUTIONS &gt;</h1>
+        <h1 className="text-4xl font-bold">COMPANY SOLUTIONS</h1>
         <p className="pages-sub-title-cs">We empower organisations with digital solutions and innovative technologies.</p>
       </header>
 
@@ -122,7 +122,7 @@ const CompanySolutions: React.FC = () => {
 
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
       <header className="pages-header-cs">
-        <h2 className="text-4xl font-bold">&lt; GET IN TOUCH WITH US &gt;</h2>
+        <h2 className="text-4xl font-bold">GET IN TOUCH WITH US</h2>
         <p className="pages-sub-title">     
         <Link href="/contact-us">
           📩 <strong>Contact Us</strong> to explore more tailored solutions.

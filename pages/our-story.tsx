@@ -100,7 +100,7 @@ const OurStory: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header-story">
-        <h1 className="text-4xl font-bold">&lt; OUR STORY &gt;</h1>
+        <h1 className="text-4xl font-bold">OUR STORY</h1>
         <p className="pages-sub-title-story">Discover the journey and vision behind Laradise Studios.</p>
       </header>
 
@@ -115,7 +115,7 @@ const OurStory: React.FC = () => {
 
       {/* Apps - Published with Modern Technologies */}
       <header className="pages-header-story-content">
-        <h1 className="text-4xl font-bold">&lt; LARADISE PROJECTS TO LARADISE STUDIOS &gt;</h1>
+        <h1 className="text-4xl font-bold">CREATIVITY MEETS TECHNOLOGY</h1>
         <p className="pages-sub-title-story">Laradise Studios was founded to turn creative dreams into reality, blending innovation and passion to deliver unique digital experiences.</p>
       </header>
 
