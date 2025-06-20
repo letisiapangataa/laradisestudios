@@ -1043,11 +1043,11 @@
 
   .pages-header-cs-intro {
     width: 100%;
-    height: 250px;
+    height: 260px;
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    padding: 4.7em 5em 4em 5em;
+    padding: 5em 5em 4em 5em;
     font-family: "Outfit", sans-serif;
   }
 
