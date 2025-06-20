@@ -871,7 +871,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 0.5em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-header {
     width: 100%;
@@ -879,7 +878,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 4em 4em 4em 4em;
   }
   .pages-header-story {
@@ -932,7 +930,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     font-size: 0.9em;
     padding-top: 2em;
   }
@@ -942,7 +939,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 4em 3em 4em 3em;
   }
   .pages-apps-published img {
@@ -954,7 +950,6 @@
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-header-games h1 {
     font-size: 1em;
@@ -962,7 +957,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 1.2em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-header-games {
     width: 100%;
@@ -970,7 +964,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 3em 3em 3em 3em;
   }
   .pages-header-story h1 {
@@ -979,7 +972,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 0.5em;
-    font-family: "ocr-a-std", monospace;
   }
    .pages-header-story-content h1 {
     font-size: 1em;
@@ -987,7 +979,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 0.5em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-sub-title-story {
     font-size: 0.8em;
@@ -996,7 +987,6 @@
     text-align: center;
     padding-bottom: 1em;
     line-height: 1.6em;
-    font-family: "ocr-a-std", monospace;
   }
   
   .pages-header-cs {
@@ -1005,7 +995,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 4em 3em 4em 3em;
   }
   .pages-header-cs h1 {
@@ -1014,7 +1003,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 0.5em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-header-cs h2 {
     font-size: 0.95em;
@@ -1022,7 +1010,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding: 0.5em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-sub-title-cs {
     font-size: 0.75em;
@@ -1031,7 +1018,6 @@
     text-align: center;
     padding: 0em;
     line-height: 1.7em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-header-contact {
     width: 100%;
