@@ -888,7 +888,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 4em 4em 4em 4em;
   }
 
@@ -898,18 +897,16 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     padding: 4em 3em 4em 3em;
   }
   
   .pages-sub-title {
-      font-size: 0.8em;
-      font-weight: normal;
-      letter-spacing: 1px;
-      text-align: center;
-      padding-bottom: 1em;
-      line-height: 1.7em;
-      font-family: "ocr-a-std", monospace;
+    font-size: 0.8em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 1.7em;
   }
 
   .pages-header-apps h1 {
@@ -918,7 +915,6 @@
     letter-spacing: 3px;
     text-align: center;
     padding-bottom: 1em;
-    font-family: "ocr-a-std", monospace;
   }
   .pages-footer {
     width: 100%;
@@ -928,7 +924,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2000;
-    font-family: "ocr-a-std", monospace;
     font-size: 0.7em;
   }
   .pages-apps-published {
