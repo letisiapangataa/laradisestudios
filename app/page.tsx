@@ -39,15 +39,15 @@ export default function Home() {
           <Link href="/">Home</Link>
         </li>
         <li className="li-menu">
+          <Link href="/ai">
+            A.I
+          </Link>
+        </li>
+        <li className="li-menu">
           <Link href="/apps">Apps</Link>
         </li>
         <li className="li-menu">
           <Link href="/games">Games</Link>
-        </li>
-        <li className="li-menu">
-          <Link href="https://www.shopify.com/nz" target="_blank" rel="noopener noreferrer">
-            Store
-          </Link>
         </li>
         <li className="li-menu">-</li>
         <li className="li-menu-sm">

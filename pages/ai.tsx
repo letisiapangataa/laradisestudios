@@ -8,10 +8,11 @@ import Particles from 'app/components/particles';
 import Link from "next/link";
 import { useState } from 'react';
 import SocialIcons from 'app/components/socialicons';
-import Slideshow from 'app/components/slideshow';
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
-import SlideshowGames from '@/app/components/slideshow-games';
+// Update the path below if the actual file is named 'Slideshow.tsx' or located elsewhere
+import Slideshow from '../app/components/slideshow';
+
 
 // Load the fonts
 const inter = Inter({
@@ -24,7 +25,7 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
-const Games: React.FC = () => {
+const AI: React.FC = () => {
   
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,34 +35,32 @@ const Games: React.FC = () => {
 
   return (
      <> 
+     <div lang="en" className={[inter.variable, calSans.variable].join(" ")}>
     <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"></link>
+        {/* <Analytics /> */}
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"></link>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-       <link
+      <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        <title>Games | Laradise Studios</title>
-        <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
-        <meta name="description" content="Explore our collection of innovative and creative games." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Explore our collection of innovative and creative applications at Laradise Studios." />
+        <title>A.I | Laradise Studios</title>
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
       <div className="p-8">
         <p className="text-xl font-bold mt-4">
-            <Link href="/">
+          <Link href="/">
             <img
               className="ls-logo"
               src="https://res.cloudinary.com/louiy9obu/image/upload/fl_preserve_transparency/v1712562804/LaradiseStudios_LOGO_2_kwdbcp.jpg?_s=public-apps"
-              alt="Laradise Studios Logo"
+              alt="Laradise Studios - Where the magic happens."
               width="100%"
             />
-          </Link>        
+          </Link>
         </p>
         <li className="li-menu">
           <Link href="/">Home</Link>
@@ -97,13 +96,12 @@ const Games: React.FC = () => {
             quantity={500} />
     </Link>
 
-   
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header-games-intro">
-        <h1 className="text-4xl font-bold">GAMES</h1>
-        <p className="pages-sub-title-games-intro">Explore our collection of innovative and creative games.</p>
+      <header className="pages-header">
+        <h1 className="text-4xl font-bold">ARTIFICIAL INTELLIGENCE</h1>
+        <p className="pages-sub-title">Explore our collection of innovative and creative A.I applications.</p>
       </header>
 
       {/* Apps Showcase Section */}
@@ -111,9 +109,8 @@ const Games: React.FC = () => {
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
 
       {/* Apps - Slideshow #1*/}
-      {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow-games">
-          <SlideshowGames
+        <div className="pages-apps-slideshow">
+          <Slideshow
             slides={[
               { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
               { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
@@ -126,10 +123,25 @@ const Games: React.FC = () => {
         </div>
 
       {/* Apps - Published with Modern Technologies */}
-
-      <header className="pages-header-games">
-        <h1 className="text-4xl font-bold">POWERED BY LARADISE STUDIOS</h1>
-        <p className="pages-sub-title">We use cutting-edge technology to craft unique and captivating gameplay experiences for everyone.</p>
+       <header className="pages-header-apps">
+        <h1 className="text-4xl font-bold">PUBLISHED WITH MODERN TECHNOLOGIES</h1>
+        <p className="pages-sub-title">Our applications are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
+        <div className="pages-apps-published">
+          <div>
+            <img
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
+              alt="Microsoft"
+            />
+            <img
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
+              alt="Apple"
+            />
+            <img
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
+              alt="Google"
+            />
+          </div>
+        </div>
       </header>
 
         {/* Apps - App Preview */}
@@ -147,7 +159,7 @@ const Games: React.FC = () => {
             src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
             alt="Preview 3"
           />
-        </div> 
+        </div>
       </div> */}
       </section>
 
@@ -156,8 +168,9 @@ const Games: React.FC = () => {
         <p>© 2025 Laradise Studios. All Rights Reserved.</p>
       </footer>
     </div>
+    </div>
     </>
   );
 };
 
-export default Games;
+export default AI;
