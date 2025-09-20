@@ -107,19 +107,6 @@ const CompanySolutions: React.FC = () => {
 
       {/* Apps Showcase Section */}
 
-      <div className="pages-apps-slideshow">
-          <Slideshow
-            slides={[
-              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
-              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
-              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
-            ]}
-            interval={2000}
-            showArrows={true}
-            showIndicators={true}
-          />
-      </div>
-
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
       <header className="pages-header-cs">
         <h2 className="text-4xl font-bold">GET IN TOUCH WITH US</h2>

@@ -112,18 +112,6 @@ const Games: React.FC = () => {
 
       {/* Apps - Slideshow #1*/}
       {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow-games">
-          <SlideshowGames
-            slides={[
-              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
-              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
-              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
-            ]}
-            interval={2000}
-            showArrows={true}
-            showIndicators={true}
-          />
-        </div>
 
       {/* Apps - Published with Modern Technologies */}
 
