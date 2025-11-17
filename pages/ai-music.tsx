@@ -123,7 +123,7 @@ A new dimension of sound, shaped by intelligent technology.
       {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
         <h1 className="text-4xl font-bold">A NEW ERA OF DIGITAL MUSIC</h1>
-        <p className="pages-sub-title">Each piece is shaped by intelligent technology, turning raw ideas into expressive, evolving soundscapes.</p>
+        <p className="pages-sub-title">Each melody is shaped by intelligent technology, turning raw ideas into expressive, evolving soundscapes.</p>
  
       </header>
 
