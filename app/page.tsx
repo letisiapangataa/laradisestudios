@@ -39,25 +39,20 @@ export default function Home() {
           <Link href="/">Home</Link>
         </li>
         <li className="li-menu">
-          <Link href="/ai">
-            A.I
+          ☁️ 💗 ☁️
+        </li>
+        <li className="li-menu">
+          <Link href="/ai-music">
+            <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
         <li className="li-menu">
-          <Link href="/apps">Apps</Link>
-        </li>
-        <li className="li-menu">
-          <Link href="/games">Games</Link>
-        </li>
-        <li className="li-menu">-</li>
-        <li className="li-menu-sm">
-          <Link href="/our-story">Our Story</Link>
+          ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
-          <Link href="/company-solutions">Company Solutions</Link>
-        </li>
-        <li className="li-menu-sm">
-          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/contact-us">
+            Contact Us
+          </Link>
         </li>
         <SocialIcons />
       </div>
@@ -79,7 +74,7 @@ export default function Home() {
 
         <div className="my-16 text-center animate-fade-in">
         <h2 className="ls-copyright">
-            © 2025 Laradise Studios
+            © 2025 Laradise Studios. All Rights Reserved.
         </h2>
     </div>
     </>

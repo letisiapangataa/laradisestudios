@@ -47,7 +47,7 @@ const AI: React.FC = () => {
       <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Explore our collection of innovative and creative applications at Laradise Studios." />
-        <title>A.I | Laradise Studios</title>
+        <title>MUSIC x A.I. | Laradise Studios</title>
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
@@ -66,25 +66,20 @@ const AI: React.FC = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="li-menu">
-          <Link href="/ai">
-            A.I
+          ☁️ 💗 ☁️
+        </li>
+        <li className="li-menu">
+          <Link href="/ai-music">
+            <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
         <li className="li-menu">
-          <Link href="/apps">Apps</Link>
-        </li>
-        <li className="li-menu">
-          <Link href="/games">Games</Link>
-        </li>
-        <li className="li-menu">-</li>
-        <li className="li-menu-sm">
-          <Link href="/our-story">Our Story</Link>
+          ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
-          <Link href="/company-solutions">Company Solutions</Link>
-        </li>
-        <li className="li-menu-sm">
-          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/contact-us">
+            Contact Us
+          </Link>
         </li>
         <SocialIcons />
       </div>
@@ -99,68 +94,62 @@ const AI: React.FC = () => {
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header">
-        <h1 className="text-4xl font-bold">ARTIFICIAL INTELLIGENCE</h1>
-        <p className="pages-sub-title">Explore our collection of innovative and creative A.I applications.</p>
-      </header>
+     <header className="pages-header">
+<h1 className="text-4xl font-bold">MUSIC × A.I.</h1>
+<p className="pages-sub-title">
+A new dimension of sound, shaped by intelligent technology.
+</p>
+</header>
 
       {/* Apps Showcase Section */}
 
+<div className="flex items-center justify-center p-4">
+<img
+  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
+  alt="Centered Image"
+  style={{
+    width: "600px",
+    height: "auto",
+    maxWidth: "600px",
+  }}
+/>
+
+
+</div>
+
+
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      {/* Apps - Slideshow #1*/}
-        <div className="pages-apps-slideshow">
-          <Slideshow
-            slides={[
-              { image: "https://images.pexels.com/photos/32412580/pexels-photo-32412580/free-photo-of-woman-in-black-with-white-umbrella-by-tree.jpeg", title: "App 1", description: "Description for App 1" },
-              { image: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 2", description: "Description for App 2" },
-              { image: "https://images.pexels.com/photos/8762881/pexels-photo-8762881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", title: "App 3", description: "Description for App 3" }
-            ]}
-            interval={2000}
-            showArrows={true}
-            showIndicators={true}
-          />
-        </div>
-
-      {/* Apps - Published with Modern Technologies */}
+      {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
-        <h1 className="text-4xl font-bold">PUBLISHED WITH MODERN TECHNOLOGIES</h1>
-        <p className="pages-sub-title">Our applications are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
-        <div className="pages-apps-published">
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
-          </div>
-        </div>
+        <h1 className="text-4xl font-bold">A NEW ERA OF DIGITAL MUSIC</h1>
+        <p className="pages-sub-title">Each piece is shaped by intelligent technology, turning raw ideas into expressive, evolving soundscapes.</p>
+ 
       </header>
 
-        {/* Apps - App Preview */}
-        {/* <div className="pages-apps-preview">
-        <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 1"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 2"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 3"
-          />
-        </div>
-      </div> */}
+      <section className="pages-apps-published mt-16 text-center">
+  <h2 className="text-4xl font-bold mb-6">Available On</h2>
+
+  <div className="flex items-center justify-center gap-10">
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
+      alt="Spotify"
+      className="h-14"
+    />
+
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
+      alt="Apple Music"
+      className="h-10"
+    />
+
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
+      alt="YouTube Music"
+      className="h-14"
+    />
+  </div>
+</section>
       </section>
 
       {/* Footer Section */}

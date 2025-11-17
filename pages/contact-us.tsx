@@ -64,24 +64,13 @@ const ContactUs: React.FC = () => {
         <li className="li-menu">
           <Link href="/">Home</Link>
         </li>
+        <li className="li-menu">☁️ 💗 ☁️</li>
         <li className="li-menu">
-          <Link href="/ai">
-            A.I
+          <Link href="/ai-music">
+            <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
-        <li className="li-menu">
-          <Link href="/apps">Apps</Link>
-        </li>
-        <li className="li-menu">
-          <Link href="/games">Games</Link>
-        </li>
-        <li className="li-menu">-</li>
-        <li className="li-menu-sm">
-          <Link href="/our-story">Our Story</Link>
-        </li>
-        <li className="li-menu-sm">
-          <Link href="/company-solutions">Company Solutions</Link>
-        </li>
+        <li className="li-menu">☁️ 💗 ☁️</li>
         <li className="li-menu-sm">
           <Link href="/contact-us">Contact Us</Link>
         </li>

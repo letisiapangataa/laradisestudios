@@ -75,7 +75,7 @@ const Apps: React.FC = () => {
         </li>
         <li className="li-menu">
           <Link href="/games">Games</Link>
-        </li>
+        </li> 
         <li className="li-menu">-</li>
         <li className="li-menu-sm">
           <Link href="/our-story">Our Story</Link>
