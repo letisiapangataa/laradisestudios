@@ -128,7 +128,7 @@ A new dimension of sound, shaped by intelligent technology.
       </header>
 
       <section className="pages-apps-published mt-16 text-center">
-  <h2 className="text-4xl font-bold mb-6">Available On</h2>
+  <h2 className="text-4xl font-bold mb-6">Available Soon</h2>
 
   <div className="flex items-center justify-center gap-10">
     <img
