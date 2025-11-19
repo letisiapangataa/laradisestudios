@@ -129,9 +129,6 @@ Discover the next generation of music artists.
        <header className="pages-header-apps">
         <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
         <p className="pages-sub-title">First Lady of Laradise Studios.</p>
-        <p className="pages-sub-title">Lover-Girl. Expressive. Tech-Nerd.</p>
-        <p className="pages-sub-title">Futuristic. Guarded. Stylish.</p>
-        <p className="pages-sub-title">City Girl. Island Girl.</p>
       </header>
 
       <section className="pages-apps-published mt-16 text-center">
