@@ -114,8 +114,11 @@ Discover the next generation of music artists.
   alt="Centered Image"
   style={{
     width: "40%",
-    height: "40%",
-    maxWidth: "40%"
+    height: "auto",
+    maxWidth: "40%",
+    paddingTop: "2em",
+    display: "block",
+    margin: "0 auto"
   }}
 />
 
