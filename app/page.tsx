@@ -5,7 +5,7 @@ import Particles from "./components/particles";
 import Logo from "./components/logo";
 import { useState } from "react";
 import Link from "next/link";
-import Apps from "pages/apps"
+import Apps from "@/pages/ai-artists"
 import SocialIcons from "./components/socialicons";
 import "../global.css";
 import { Inter } from "@next/font/google";
@@ -46,6 +46,11 @@ export default function Home() {
             <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
+           <li className="li-menu">
+          <Link href="/ai-artists">
+            <strong>ARTISTS x A.I.</strong>
+          </Link>
+        </li>
         <li className="li-menu">
           ☁️ 💗 ☁️
         </li>
@@ -74,7 +79,7 @@ export default function Home() {
 
         <div className="my-16 text-center animate-fade-in">
         <h2 className="ls-copyright">
-            © 2025 Laradise Studios. All Rights Reserved.
+            © 2025 Laradise Studios.
         </h2>
     </div>
     </>

@@ -74,6 +74,11 @@ const AI: React.FC = () => {
           </Link>
         </li>
         <li className="li-menu">
+          <Link href="/ai-artists">
+            <strong>ARTISTS x A.I.</strong>
+          </Link>
+        </li>
+        <li className="li-menu">
           ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
@@ -108,9 +113,9 @@ A new dimension of sound, shaped by intelligent technology.
   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
   alt="Centered Image"
   style={{
-    width: "600px",
-    height: "auto",
-    maxWidth: "600px",
+    width: "40%",
+    height: "40%",
+    maxWidth: "40%",
   }}
 />
 

@@ -25,7 +25,7 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
-const Apps: React.FC = () => {
+const AI: React.FC = () => {
   
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +47,7 @@ const Apps: React.FC = () => {
       <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Explore our collection of innovative and creative applications at Laradise Studios." />
-        <title>Applications | Laradise Studios</title>
+        <title>ARTISTS x A.I. | Laradise Studios</title>
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
@@ -66,25 +66,25 @@ const Apps: React.FC = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="li-menu">
-          <Link href="/ai">
-            A.I
+          ☁️ 💗 ☁️
+        </li>
+        <li className="li-menu">
+          <Link href="/ai-music">
+            <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
         <li className="li-menu">
-          <Link href="/apps">Apps</Link>
+          <Link href="/ai-artists">
+            <strong>ARTISTS x A.I.</strong>
+          </Link>
         </li>
         <li className="li-menu">
-          <Link href="/games">Games</Link>
-        </li> 
-        <li className="li-menu">-</li>
-        <li className="li-menu-sm">
-          <Link href="/our-story">Our Story</Link>
+          ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
-          <Link href="/company-solutions">Company Solutions</Link>
-        </li>
-        <li className="li-menu-sm">
-          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/contact-us">
+            Contact Us
+          </Link>
         </li>
         <SocialIcons />
       </div>
@@ -99,54 +99,64 @@ const Apps: React.FC = () => {
     <div className={`apps-page bg-gray-50 min-h-screen ${inter.className}`}>
       
       {/* Header Section */}
-      <header className="pages-header">
-        <h1 className="text-4xl font-bold">APPLICATIONS</h1>
-        <p className="pages-sub-title">Explore our collection of innovative and creative applications.</p>
-      </header>
+     <header className="pages-header">
+<h1 className="text-4xl font-bold">ARTISTS × A.I.</h1>
+<p className="pages-sub-title">
+Discover the next generation of music artists.
+</p>
+</header>
 
       {/* Apps Showcase Section */}
 
+<div className="flex items-center justify-center p-4">
+<img
+  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
+  alt="Centered Image"
+  style={{
+    width: "40%",
+    height: "40%",
+    maxWidth: "40%",
+  }}
+/>
+
+
+</div>
+
+
       <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      {/* Apps - Published with Modern Technologies */}
+      {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
-        <h1 className="text-4xl font-bold">PUBLISHED WITH MODERN TECHNOLOGIES</h1>
-        <p className="pages-sub-title">Our applications are crafted using the latest technologies, ensuring a seamless and engaging experience.</p>
-        <div className="pages-apps-published">
-          <div>
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-microsoft_dylyi4.png"
-              alt="Microsoft"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-apple_ycf1hx.png"
-              alt="Apple"
-            />
-            <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1746868743/laradisestudios-apps-google_mo4gwo.png"
-              alt="Google"
-            />
-          </div>
-        </div>
+        <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
+        <p className="pages-sub-title">First Lady of Laradise Studios.</p>
+        <p className="pages-sub-title">Lover-Girl. Expressive. Tech-Nerd.</p>
+        <p className="pages-sub-title">Futuristic. Guarded. Stylish.</p>
+        <p className="pages-sub-title">City Girl. Island Girl.</p>
       </header>
 
-        {/* Apps - App Preview */}
-        {/* <div className="pages-apps-preview">
-        <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 1"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 2"
-          />
-          <img
-            src="https://res.cloudinary.com/louiy9obu/image/upload/v1746869549/laradisestudios-apps-preview_zs1fhd.png"
-            alt="Preview 3"
-          />
-        </div>
-      </div> */}
+      <section className="pages-apps-published mt-16 text-center">
+  <h2 className="text-4xl font-bold mb-6">Available Soon</h2>
+
+  <div className="flex items-center justify-center gap-10">
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
+      alt="Spotify"
+      className="h-14"
+    />
+
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
+      alt="Apple Music"
+      className="h-10"
+    />
+
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
+      alt="YouTube Music"
+      className="h-14"
+    />
+  </div>
+</section>
       </section>
 
       {/* Footer Section */}
@@ -159,4 +169,4 @@ const Apps: React.FC = () => {
   );
 };
 
-export default Apps;
+export default AI;

@@ -70,6 +70,11 @@ const ContactUs: React.FC = () => {
             <strong>MUSIC x A.I.</strong>
           </Link>
         </li>
+        <li className="li-menu">
+          <Link href="/ai-artists">
+            <strong>ARTISTS x A.I.</strong>
+          </Link>
+        </li>
         <li className="li-menu">☁️ 💗 ☁️</li>
         <li className="li-menu-sm">
           <Link href="/contact-us">Contact Us</Link>
@@ -89,7 +94,7 @@ const ContactUs: React.FC = () => {
       
       {/* Header Section */}
       <header className="pages-header-contact">
-        <h1 className="text-4xl font-bold">CONTACT US</h1>
+        <h1 className="text-4xl font-bold">CONTACT x LARADISE STUDIOS</h1>
         <p className="pages-sub-title">Get in touch with us for questions, feedback, or partnership opportunities.</p>
       </header>
 
