@@ -115,8 +115,7 @@ Discover the next generation of music artists.
   style={{
     width: "40%",
     height: "40%",
-    maxWidth: "40%",
-    marginBottom: "-5em"
+    maxWidth: "40%"
   }}
 />
 
