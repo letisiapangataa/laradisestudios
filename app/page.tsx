@@ -55,7 +55,7 @@ export default function Home() {
           ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
-          <Link href="/contact-us">
+          <Link href="mailto:contact@laradisestudios.com">
             Contact Us
           </Link>
         </li>

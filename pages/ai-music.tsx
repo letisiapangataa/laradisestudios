@@ -47,7 +47,7 @@ const AI: React.FC = () => {
       <link rel="icon" href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png" type="image/png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Explore our collection of innovative and creative applications at Laradise Studios." />
-        <title>MUSIC x A.I. | Laradise Studios</title>
+        <title>ARTISTS x A.I. | Laradise Studios</title>
       </Head>
     <div className={`sidebar fixed top-0 left-0 h-full w-64 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Sidebar content */}
@@ -82,7 +82,7 @@ const AI: React.FC = () => {
           ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
-          <Link href="/contact-us">
+          <Link href="mailto:contact@laradisestudios.com">
             Contact Us
           </Link>
         </li>
@@ -100,9 +100,9 @@ const AI: React.FC = () => {
       
       {/* Header Section */}
      <header className="pages-header">
-<h1 className="text-4xl font-bold">MUSIC × A.I.</h1>
+<h1 className="text-4xl font-bold">ARTISTS × A.I.</h1>
 <p className="pages-sub-title">
-A new dimension of sound, shaped by intelligent technology.
+Discover the next generation of music artists.
 </p>
 </header>
 
@@ -110,12 +110,15 @@ A new dimension of sound, shaped by intelligent technology.
 
 <div className="flex items-center justify-center p-4">
 <img
-  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
+  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
   alt="Centered Image"
   style={{
     width: "40%",
-    height: "40%",
+    height: "auto",
     maxWidth: "40%",
+    paddingTop: "2em",
+    display: "block",
+    margin: "0 auto"
   }}
 />
 
@@ -127,9 +130,8 @@ A new dimension of sound, shaped by intelligent technology.
 
       {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
-        <h1 className="text-4xl font-bold">A NEW ERA OF DIGITAL MUSIC</h1>
-        <p className="pages-sub-title">Each melody is shaped by intelligent technology, turning raw ideas into expressive, evolving soundscapes.</p>
- 
+        <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
+        <p className="pages-sub-title">First Lady of Laradise Studios.</p>
       </header>
 
       <section className="pages-apps-published mt-16 text-center">
