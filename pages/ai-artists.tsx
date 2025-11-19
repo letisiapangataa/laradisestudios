@@ -132,10 +132,11 @@ Discover the next generation of music artists.
        <header className="pages-header-apps">
         <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
         <p className="pages-sub-title">First Lady of Laradise Studios.</p>
+        <p className="pages-sub-title">"Pretty beats, pretty energy"</p>
       </header>
 
       <section className="pages-apps-published mt-16 text-center">
-  <h2 className="text-4xl font-bold mb-6">Available Soon</h2>
+  <h2 className="text-4xl font-bold mb-6">Powered by 💗</h2>
 
   <div className="flex items-center justify-center gap-10">
     <img

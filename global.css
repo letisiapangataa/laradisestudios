@@ -656,10 +656,10 @@
 
   .pages-apps-published h2 {
     font-size: 1.2em;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     padding: 1em;
-    text-transform: capitalize;
+    text-transform: none;
   }
 
   .pages-apps-published div {
@@ -742,10 +742,10 @@
 
   .pages-apps-published h2 {
     font-size: 1.2em;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     padding: 1em;
-    text-transform: capitalize;
+    text-transform: none;
   }
 
   .pages-apps-published div {
