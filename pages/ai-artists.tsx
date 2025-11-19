@@ -116,6 +116,7 @@ Discover the next generation of music artists.
     width: "40%",
     height: "40%",
     maxWidth: "40%",
+    marginBottom: "-5em"
   }}
 />
 
@@ -128,7 +129,7 @@ Discover the next generation of music artists.
       {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
         <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
-        <p className="pages-sub-title">First Lady of Laradise Studios.</p>
+        <p className="pages-sub-title">First Lady. Tech Nerd. Island/City Girl.</p>
       </header>
 
       <section className="pages-apps-published mt-16 text-center">
