@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     default: "Laradise Studios | Where the magic happens. ",
     template: "%s | Laradise Studios",
   },
-  description: "Where the magic happens.",
+  description: "Laradise Studios is a creative technology studio dedicated to building modern, meaningful, and beautifully crafted digital experiences. At its core, the studio blends creativity with emerging technology to design products that feel intuitive, emotionally resonant, and visually distinctive. We operate at the intersection of design, innovation, and artificial intelligence.",
   openGraph: {
     title: "Laradise Studios",
     description:
-      "Where the magic happens.",
+      "Laradise Studios is a creative technology studio dedicated to building modern, meaningful, and beautifully crafted digital experiences. At its core, the studio blends creativity with emerging technology to design products that feel intuitive, emotionally resonant, and visually distinctive. We operate at the intersection of design, innovation, and artificial intelligence.",
     url: "https://laradisestudios.com",
     siteName: "Laradise Studios",
     images: [
