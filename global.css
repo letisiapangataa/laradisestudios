@@ -814,6 +814,11 @@
 /* Media Queries for smaller screens */
 
 @media (min-width: 0px) and (max-width: 800px) {
+
+  .p-8 {
+    padding: 4rem;
+  }
+  
   .animate-fade-in {
     animation: fade-in 1s ease-in-out forwards;
   }

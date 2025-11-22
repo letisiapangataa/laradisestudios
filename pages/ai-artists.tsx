@@ -130,7 +130,7 @@ Discover the next generation of music artists.
 
       {/* A.I Music - Published with Modern Technologies */}
        <header className="pages-header-apps">
-        <h1 className="text-4xl font-bold">DJ TATI (LIVE)</h1>
+        <h1 className="text-4xl font-bold">TATI (LIVE)</h1>
         <p className="pages-sub-title">First Lady of Laradise Studios.</p>
         <p className="pages-sub-title">"Pretty beats, pretty energy"</p>
       </header>
