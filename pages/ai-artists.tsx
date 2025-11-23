@@ -73,7 +73,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:description"
-            content="Discover the next generation of AI-driven music artists from the Laradise Studios universe."
+            content="Discover the next generation of artists from the Laradise Studios universe."
           />
           <meta
             property="og:image"
@@ -92,7 +92,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:description"
-            content="Discover ARTISTS × A.I. from Laradise Studios."
+            content="Discover the next generation of artists from the Laradise Studios universe."
           />
           <meta
             name="twitter:image"
@@ -117,7 +117,7 @@ const AI: React.FC = () => {
                 url: "https://www.laradisestudios.com/ai-artists",
                 genre: ["Electronic", "Pop", "AI-generated music"],
                 description:
-                  "ARTISTS × A.I. introduces AI-powered digital artists from Laradise Studios, including TATI (LIVE), the First Lady of Laradise Studios.",
+                  "Discover the next generation of artists from the Laradise Studios universe.",
                 image:
                   "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png",
                 member: [
@@ -125,7 +125,7 @@ const AI: React.FC = () => {
                     "@type": "Person",
                     name: "TATI",
                     description:
-                      "AI-powered digital artist from Laradise Studios. First Lady of Laradise Studios.",
+                      "Discover the next generation of artists from the Laradise Studios universe.",
                   },
                 ],
               }),
@@ -186,8 +186,7 @@ const AI: React.FC = () => {
           <header className="pages-header">
             <h1 className="text-4xl font-bold">ARTISTS × A.I.</h1>
             <p className="pages-sub-title">
-              Discover the next generation of AI-driven music artists from the
-              Laradise Studios universe.
+              Discover the next generation of artists from the Laradise Studios universe.
             </p>
           </header>
 

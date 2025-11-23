@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     default: "Laradise Studios | Where the magic happens. ",
     template: "%s | Laradise Studios",
   },
-  description: "Where the magic happens",
+  description: "Next-gen worlds. Next-gen artists.",
   openGraph: {
     title: "Laradise Studios",
     description:
-      "Where the magic happens.",
+      "Next-gen worlds. Next-gen artists.",
     url: "https://laradisestudios.com",
     siteName: "Laradise Studios",
     images: [
