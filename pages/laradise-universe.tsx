@@ -77,7 +77,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763881627/universexai_laradisestudios_hbamsr.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763883687/universexai_laradisestudios_ljump7.png"
           />
           <meta
             property="og:url"
@@ -96,7 +96,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763881627/universexai_laradisestudios_hbamsr.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763883687/universexai_laradisestudios_ljump7.png"
           />
 
           {/* CANONICAL */}
@@ -190,7 +190,7 @@ const AI: React.FC = () => {
           <header className="pages-header">
             <h1 className="text-4xl font-bold">UNIVERSE × A.I.</h1>
             <p className="pages-sub-title">
-              Next-gen worlds. Next-gen artists.
+              Where intelligent worlds create intelligent sound.
             </p>
           </header>
 
