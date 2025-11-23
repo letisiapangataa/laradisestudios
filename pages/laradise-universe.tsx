@@ -10,7 +10,6 @@ import { useState } from "react";
 import SocialIcons from "app/components/socialicons";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
-// Update the path below if the actual file is named 'Slideshow.tsx' or located elsewhere
 import Slideshow from "../app/components/slideshow";
 
 // Load the fonts
@@ -56,57 +55,57 @@ const AI: React.FC = () => {
 
           {/* BASIC SEO */}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>MUSIC × A.I. | Laradise Studios</title>
+          <title>UNIVERSE × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="A new dimension of sound, shaped by intelligent technology."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             name="keywords"
-            content="Laradise Studios, AI music, AI-generated music, MUSIC x AI, digital soundscapes"
+            content="Laradise Studios, AI music, AI artists, ARTISTS x AI, TATI LIVE, DJ Tati, electronic music, digital artists"
           />
 
           {/* OPEN GRAPH / SOCIAL SHARING */}
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="MUSIC × A.I. | Laradise Studios"
+            content="UNIVERSE × A.I. | Laradise Studios"
           />
           <meta
             property="og:description"
-            content="A new dimension of sound, shaped by intelligent technology."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763881627/universexai_laradisestudios_hbamsr.png"
           />
           <meta
             property="og:url"
-            content="https://www.laradisestudios.com/ai-music"
+            content="https://www.laradisestudios.com/ai-artists"
           />
 
           {/* TWITTER CARD */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="MUSIC × A.I. | Laradise Studios"
+            content="UNIVERSE × A.I. | Laradise Studios"
           />
           <meta
             name="twitter:description"
-            content="A new dimension of sound, shaped by intelligent technology."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763881627/universexai_laradisestudios_hbamsr.png"
           />
 
-          {/* CANONICAL – adjust if needed */}
+          {/* CANONICAL */}
           <link
             rel="canonical"
-            href="https://www.laradisestudios.com/ai-music"
+            href="https://www.laradisestudios.com/ai-artists"
           />
 
-          {/* JSON-LD: MUSIC × A.I. as a MusicGroup / project */}
+          {/* JSON-LD: ARTISTS × A.I. + TATI (LIVE) */}
           <script
             type="application/ld+json"
             // eslint-disable-next-line react/no-danger
@@ -114,13 +113,21 @@ const AI: React.FC = () => {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "MusicGroup",
-                name: "MUSIC × A.I. – Laradise Studios",
-                url: "https://www.laradisestudios.com/ai-music",
-                genre: ["Electronic", "AI-generated music", "EDM"],
+                name: "UNIVERSE × A.I. | Laradise Studios",
+                url: "https://www.laradisestudios.com/ai-artists",
+                genre: ["Electronic", "Pop", "AI-generated music"],
                 description:
-                  "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music.",
+                  "Next-generation artists, born for tomorrow.",
                 image:
                   "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
+                member: [
+                  {
+                    "@type": "Person",
+                    name: "TATI",
+                    description:
+                      "Pretty beats, pretty energy.",
+                  },
+                ],
               }),
             }}
           />
@@ -181,58 +188,49 @@ const AI: React.FC = () => {
         >
           {/* Header Section */}
           <header className="pages-header">
-            <h1 className="text-4xl font-bold">MUSIC × A.I.</h1>
+            <h1 className="text-4xl font-bold">UNIVERSE × A.I.</h1>
             <p className="pages-sub-title">
-              A new dimension of sound, shaped by intelligent technology.
+              Next-Gen Worlds. Next-Gen Artists.
             </p>
           </header>
 
           {/* Hero Visual */}
           <div className="flex items-center justify-center p-4">
             <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
-              alt="MUSIC x A.I. representing Laradise Studios digital sound."
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763879151/tatisworld_laradisestudios.png"
+              alt="PLANET x TATI NOVA"
               style={{
                 width: "40%",
                 height: "auto",
                 maxWidth: "40%",
+                display: "block",
+                margin: "0 auto",
               }}
             />
           </div>
 
-          {/* Apps Showcase Section */}
           <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* A.I Music - Published with Modern Technologies */}
+            {/* TATI – AI Artist Block */}
             <header className="pages-header-apps">
-              {/* h2 to keep only a single h1 on the page */}
-              <h1 className="text-4xl font-bold">A NEW ERA OF DIGITAL MUSIC</h1>
-              <p className="pages-sub-title">
-                Each melody is shaped by intelligent technology, turning raw
-                ideas into expressive, evolving soundscapes.
-              </p>
+              {/* h2 to keep a clean hierarchy under the main h1 */}
+              <h1 className="text-4xl font-bold">PLANET x TATI NOVA</h1>
+              <p className="pages-sub-title">The Origin World of Heart Energy.</p>
+               <p className="pages-sub-title"><b>Artists: </b>TATI</p>
             </header>
 
             <section className="pages-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">Available Soon</h2>
+              <h2 className="text-4xl font-bold mb-6">Stay tuned w/ UNIVERSE x AI</h2>
 
               <div className="flex items-center justify-center gap-10">
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
-                  alt="Laradise Studios AI music coming soon to Spotify"
-                  className="h-14"
-                />
-
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
-                  alt="Laradise Studios AI music coming soon to Apple Music"
-                  className="h-10"
-                />
-
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
-                  alt="Laradise Studios AI music coming soon to YouTube Music"
-                  className="h-14"
-                />
+                <a href="https://www.instagram.com/laradiseuniverse/" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@laradiseuniverse" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-tiktok"></i>
+                </a>
+                <a href="https://x.com/laradiseuniverse" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-twitter"></i>
+                </a>
               </div>
             </section>
           </section>

@@ -39,7 +39,9 @@ export default function Home() {
           <Link href="/">Home</Link>
         </li>
         <li className="li-menu">
-          ☁️ 💗 ☁️
+          <Link href="/laradise-universe">
+            <strong>UNIVERSE</strong>
+          </Link>
         </li>
         <li className="li-menu">
           <Link href="/ai-music">

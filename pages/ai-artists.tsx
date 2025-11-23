@@ -154,7 +154,11 @@ const AI: React.FC = () => {
             <li className="li-menu">
               <Link href="/">Home</Link>
             </li>
-            <li className="li-menu">☁️ 💗 ☁️</li>
+            <li className="li-menu">
+              <Link href="/laradise-universe">
+                <strong>UNIVERSE</strong>
+              </Link>
+            </li>
             <li className="li-menu">
               <Link href="/ai-music">
                 <strong>MUSIC x A.I.</strong>
