@@ -79,7 +79,6 @@ const AI: React.FC = () => {
             property="og:image"
             content="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
           />
-          {/* 👉 Update this URL to match your live route if needed */}
           <meta
             property="og:url"
             content="https://www.laradisestudios.com/ai-artists"
@@ -100,10 +99,37 @@ const AI: React.FC = () => {
             content="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
           />
 
-          {/* CANONICAL – adjust if the final URL is different */}
+          {/* CANONICAL */}
           <link
             rel="canonical"
             href="https://www.laradisestudios.com/ai-artists"
+          />
+
+          {/* JSON-LD: ARTISTS × A.I. + TATI (LIVE) */}
+          <script
+            type="application/ld+json"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "MusicGroup",
+                name: "ARTISTS × A.I. – Laradise Studios",
+                url: "https://www.laradisestudios.com/ai-artists",
+                genre: ["Electronic", "Pop", "AI-generated music"],
+                description:
+                  "ARTISTS × A.I. introduces AI-powered digital artists from Laradise Studios, including TATI (LIVE), the First Lady of Laradise Studios.",
+                image:
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png",
+                member: [
+                  {
+                    "@type": "Person",
+                    name: "TATI (LIVE)",
+                    description:
+                      "AI-powered digital artist from Laradise Studios. First Lady of Laradise Studios – pretty beats, pretty energy.",
+                  },
+                ],
+              }),
+            }}
           />
         </Head>
 
@@ -160,7 +186,8 @@ const AI: React.FC = () => {
           <header className="pages-header">
             <h1 className="text-4xl font-bold">ARTISTS × A.I.</h1>
             <p className="pages-sub-title">
-              Discover the next generation of AI-driven music artists.
+              Discover the next generation of AI-driven music artists from the
+              Laradise Studios universe.
             </p>
           </header>
 
@@ -183,7 +210,7 @@ const AI: React.FC = () => {
           <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* TATI – AI Artist Block */}
             <header className="pages-header-apps">
-              {/* changed to h2 for better SEO hierarchy */}
+              {/* h2 to keep a clean hierarchy under the main h1 */}
               <h1 className="text-4xl font-bold">TATI (LIVE)</h1>
               <p className="pages-sub-title">First Lady of Laradise Studios.</p>
               <p className="pages-sub-title">
@@ -197,19 +224,19 @@ const AI: React.FC = () => {
               <div className="flex items-center justify-center gap-10">
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
-                  alt="Listen to TATI (LIVE) on Spotify"
+                  alt="Listen to TATI (LIVE) from Laradise Studios on Spotify"
                   className="h-14"
                 />
 
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
-                  alt="Stream Laradise Studios music on Apple Music"
+                  alt="Stream Laradise Studios AI music on Apple Music"
                   className="h-10"
                 />
 
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
-                  alt="Watch and listen on YouTube Music"
+                  alt="Watch and listen to Laradise Studios releases on YouTube Music"
                   className="h-14"
                 />
               </div>

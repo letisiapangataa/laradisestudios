@@ -80,7 +80,6 @@ const AI: React.FC = () => {
             property="og:image"
             content="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
           />
-          {/* 👉 Update this URL if the final live route is different */}
           <meta
             property="og:url"
             content="https://www.laradisestudios.com/ai-music"
@@ -105,6 +104,25 @@ const AI: React.FC = () => {
           <link
             rel="canonical"
             href="https://www.laradisestudios.com/ai-music"
+          />
+
+          {/* JSON-LD: MUSIC × A.I. as a MusicGroup / project */}
+          <script
+            type="application/ld+json"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "MusicGroup",
+                name: "MUSIC × A.I. – Laradise Studios",
+                url: "https://www.laradisestudios.com/ai-music",
+                genre: ["Electronic", "AI-generated music", "EDM"],
+                description:
+                  "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music, blending Y2K aesthetics, EDM, and futuristic production.",
+                image:
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png",
+              }),
+            }}
           />
         </Head>
 
@@ -182,7 +200,7 @@ const AI: React.FC = () => {
           <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* A.I Music - Published with Modern Technologies */}
             <header className="pages-header-apps">
-              {/* changed to h2 for SEO hierarchy */}
+              {/* h2 to keep only a single h1 on the page */}
               <h1 className="text-4xl font-bold">A NEW ERA OF DIGITAL MUSIC</h1>
               <p className="pages-sub-title">
                 Each melody is shaped by intelligent technology, turning raw
