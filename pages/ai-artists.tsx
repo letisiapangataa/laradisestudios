@@ -186,7 +186,7 @@ const AI: React.FC = () => {
           <header className="pages-header">
             <h1 className="text-4xl font-bold">ARTISTS × A.I.</h1>
             <p className="pages-sub-title">
-              Discover the next generation of artists from the Laradise Studios universe.
+              Next-generation artists, born for tomorrow.
             </p>
           </header>
 
