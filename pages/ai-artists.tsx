@@ -49,7 +49,7 @@ const AI: React.FC = () => {
           />
           <link
             rel="icon"
-            href="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png"
+            href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png"
             type="image/png"
           />
 
@@ -119,7 +119,7 @@ const AI: React.FC = () => {
                 description:
                   "Next-generation artists, born for tomorrow.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
                 member: [
                   {
                     "@type": "Person",

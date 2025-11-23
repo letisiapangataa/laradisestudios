@@ -59,7 +59,7 @@ const AI: React.FC = () => {
           <title>MUSIC × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Explore MUSIC × A.I. by Laradise Studios, a new dimension of sound, shaped by intelligent technology."
+            content="A new dimension of sound, shaped by intelligent technology."
           />
           <meta
             name="keywords"
@@ -120,7 +120,7 @@ const AI: React.FC = () => {
                 description:
                   "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
               }),
             }}
           />
