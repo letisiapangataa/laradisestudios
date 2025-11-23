@@ -155,8 +155,8 @@ const AI: React.FC = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="li-menu">
-              <Link href="/laradise-universe">
-                <strong>UNIVERSE</strong>
+              <Link href="/ai-laradise-universe">
+                <strong>UNIVERSE x A.I.</strong>
               </Link>
             </li>
             <li className="li-menu">
@@ -215,9 +215,9 @@ const AI: React.FC = () => {
             <header className="pages-header-apps">
               {/* h2 to keep a clean hierarchy under the main h1 */}
               <h1 className="text-4xl font-bold">TATI (LIVE)</h1>
-              <p className="pages-sub-title">First Lady of Laradise Studios.</p>
+              <p className="pages-sub-title">The heartbeat of the Laradise Universe.</p>
               <p className="pages-sub-title">
-                &quot;Pretty beats, pretty energy&quot;
+                &quot;Where emotion becomes sound.&quot;
               </p>
             </header>
 

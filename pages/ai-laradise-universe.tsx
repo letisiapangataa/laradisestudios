@@ -155,8 +155,8 @@ const AI: React.FC = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="li-menu">
-              <Link href="/laradise-universe">
-                <strong>UNIVERSE</strong>
+              <Link href="/ai-laradise-universe">
+                <strong>UNIVERSE x A.I.</strong>
               </Link>
             </li>
             <li className="li-menu">
@@ -218,11 +218,11 @@ const AI: React.FC = () => {
               {/* h2 to keep a clean hierarchy under the main h1 */}
               <h1 className="text-4xl font-bold">PLANET x TATI NOVA</h1>
               <p className="pages-sub-title">The Origin World of Heart Energy.</p>
-               <p className="pages-sub-title"><b>Artists: </b>TATI</p>
+               <p className="pages-sub-title"><b>Artists: </b>TATI (Tati Novian)</p>
             </header>
 
             <section className="pages-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">Stay tuned w/ UNIVERSE x AI</h2>
+              <h2 className="text-4xl font-bold mb-6">@LARADISEUNIVERSE 🌑 // #LARADISEUNIVERSE 💫</h2>
 
               <div className="flex items-center justify-center gap-10">
                 <a href="https://www.instagram.com/laradiseuniverse/" target="_blank" rel="noopener noreferrer">
