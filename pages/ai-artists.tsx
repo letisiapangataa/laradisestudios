@@ -49,7 +49,7 @@ const AI: React.FC = () => {
           />
           <link
             rel="icon"
-            href="https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png"
+            href="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png"
             type="image/png"
           />
 
@@ -77,7 +77,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png"
           />
           <meta
             property="og:url"
@@ -96,7 +96,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png"
           />
 
           {/* CANONICAL */}
@@ -119,13 +119,13 @@ const AI: React.FC = () => {
                 description:
                   "ARTISTS × A.I. introduces AI-powered digital artists from Laradise Studios, including TATI (LIVE), the First Lady of Laradise Studios.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png",
                 member: [
                   {
                     "@type": "Person",
-                    name: "TATI (LIVE)",
+                    name: "TATI",
                     description:
-                      "AI-powered digital artist from Laradise Studios. First Lady of Laradise Studios – pretty beats, pretty energy.",
+                      "AI-powered digital artist from Laradise Studios. First Lady of Laradise Studios.",
                   },
                 ],
               }),

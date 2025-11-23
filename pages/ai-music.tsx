@@ -59,11 +59,11 @@ const AI: React.FC = () => {
           <title>MUSIC × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Explore MUSIC × A.I. by Laradise Studios – a new dimension of sound shaped by intelligent technology."
+            content="Explore MUSIC × A.I. by Laradise Studios, a new dimension of sound, shaped by intelligent technology."
           />
           <meta
             name="keywords"
-            content="Laradise Studios, AI music, AI-generated music, MUSIC x AI, electronic music, Y2K EDM, digital soundscapes"
+            content="Laradise Studios, AI music, AI-generated music, MUSIC x AI, digital soundscapes"
           />
 
           {/* OPEN GRAPH / SOCIAL SHARING */}
@@ -74,11 +74,11 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:description"
-            content="A new era of digital music from Laradise Studios – each track shaped by intelligent technology into expressive, evolving soundscapes."
+            content="A new dimension of sound, shaped by intelligent technology."
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png"
           />
           <meta
             property="og:url"
@@ -93,11 +93,11 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:description"
-            content="Experience AI-crafted, future-leaning digital music from Laradise Studios."
+            content="A new dimension of sound, shaped by intelligent technology."
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png"
           />
 
           {/* CANONICAL – adjust if needed */}
@@ -120,7 +120,7 @@ const AI: React.FC = () => {
                 description:
                   "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/musicxai_laradisestudios_brwcfw.png",
               }),
             }}
           />
