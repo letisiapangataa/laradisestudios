@@ -58,7 +58,7 @@ const AI: React.FC = () => {
           <title>UNIVERSE × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Next-generation artists, born for tomorrow."
+            content="Where intelligent worlds create intelligent sound."
           />
           <meta
             name="keywords"
@@ -73,7 +73,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:description"
-            content="Next-generation artists, born for tomorrow."
+            content="Where intelligent worlds create intelligent sound."
           />
           <meta
             property="og:image"
@@ -92,7 +92,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:description"
-            content="Next-generation artists, born for tomorrow."
+            content="Where intelligent worlds create intelligent sound."
           />
           <meta
             name="twitter:image"
