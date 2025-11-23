@@ -117,7 +117,7 @@ const AI: React.FC = () => {
                 url: "https://www.laradisestudios.com/ai-artists",
                 genre: ["Electronic", "Pop", "AI-generated music"],
                 description:
-                  "Next-generation artists, born for tomorrow.",
+                  "Where intelligent worlds create intelligent sound.",
                 image:
                   "https://res.cloudinary.com/louiy9obu/image/upload/v1712319820/LS_pnqkwp.png",
                 member: [
@@ -190,7 +190,7 @@ const AI: React.FC = () => {
           <header className="pages-header">
             <h1 className="text-4xl font-bold">UNIVERSE × A.I.</h1>
             <p className="pages-sub-title">
-              Next-Gen Worlds. Next-Gen Artists.
+              Next-gen worlds. Next-gen artists.
             </p>
           </header>
 
