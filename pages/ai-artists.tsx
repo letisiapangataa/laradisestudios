@@ -58,7 +58,7 @@ const AI: React.FC = () => {
           <title>ARTISTS × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Discover our next generation of artists."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             name="keywords"
@@ -73,7 +73,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:description"
-            content="Discover our next generation of artists."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             property="og:image"
@@ -92,7 +92,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:description"
-            content="Discover our next generation of artists."
+            content="Next-generation artists, born for tomorrow."
           />
           <meta
             name="twitter:image"
@@ -117,7 +117,7 @@ const AI: React.FC = () => {
                 url: "https://www.laradisestudios.com/ai-artists",
                 genre: ["Electronic", "Pop", "AI-generated music"],
                 description:
-                  "Discover our next generation of artists.",
+                  "Next-generation artists, born for tomorrow.",
                 image:
                   "https://res.cloudinary.com/louiy9obu/image/upload/v1763860388/artistsxai_laradisestudios_zyfp62.png",
                 member: [
