@@ -56,10 +56,10 @@ const AI: React.FC = () => {
 
           {/* BASIC SEO */}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>MUSIC × A.I. | AI-Generated Music | Laradise Studios</title>
+          <title>MUSIC × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Explore MUSIC × A.I. by Laradise Studios – a new dimension of sound shaped by intelligent technology, blending Y2K aesthetics, EDM, and futuristic digital production."
+            content="Explore MUSIC × A.I. by Laradise Studios – a new dimension of sound shaped by intelligent technology."
           />
           <meta
             name="keywords"
@@ -78,7 +78,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png"
           />
           <meta
             property="og:url"
@@ -97,7 +97,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png"
           />
 
           {/* CANONICAL – adjust if needed */}
@@ -118,9 +118,9 @@ const AI: React.FC = () => {
                 url: "https://www.laradisestudios.com/ai-music",
                 genre: ["Electronic", "AI-generated music", "EDM"],
                 description:
-                  "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music, blending Y2K aesthetics, EDM, and futuristic production.",
+                  "MUSIC × A.I. by Laradise Studios is a collection of AI-generated digital music.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763858999/musicxai_laradisestudios.png",
               }),
             }}
           />
@@ -187,7 +187,7 @@ const AI: React.FC = () => {
           <div className="flex items-center justify-center p-4">
             <img
               src="https://res.cloudinary.com/louiy9obu/image/upload/v1763366575/ChatGPT_Image_Nov_17_2025_at_09_02_46_PM_p7i2t6.png"
-              alt="MUSIC x A.I. hero artwork in Y2K Pixar-style 3D, representing Laradise Studios digital sound."
+              alt="MUSIC x A.I. representing Laradise Studios digital sound."
               style={{
                 width: "40%",
                 height: "auto",

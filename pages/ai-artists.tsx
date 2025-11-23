@@ -55,14 +55,14 @@ const AI: React.FC = () => {
 
           {/* BASIC SEO */}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>ARTISTS × A.I. | AI Music Artists | Laradise Studios</title>
+          <title>ARTISTS × A.I. | Laradise Studios</title>
           <meta
             name="description"
-            content="Meet ARTISTS × A.I. by Laradise Studios – a new wave of AI-powered music artists like TATI (LIVE). Pretty beats, pretty energy, and futuristic soundscapes."
+            content="Discover the next generation of AI-driven music artists from the Laradise Studios universe."
           />
           <meta
             name="keywords"
-            content="Laradise Studios, AI music, AI artists, ARTISTS x AI, TATI LIVE, DJ Tati, electronic music, Y2K music, digital artists"
+            content="Laradise Studios, AI music, AI artists, ARTISTS x AI, TATI LIVE, DJ Tati, electronic music, digital artists"
           />
 
           {/* OPEN GRAPH / SOCIAL SHARING */}
@@ -73,11 +73,11 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:description"
-            content="Discover the next generation of AI-driven music artists from Laradise Studios, featuring TATI (LIVE) – First Lady of Laradise Studios."
+            content="Discover the next generation of AI-driven music artists from the Laradise Studios universe."
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png"
           />
           <meta
             property="og:url"
@@ -92,11 +92,11 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:description"
-            content="Discover AI-powered artists like TATI (LIVE) from Laradise Studios – pretty beats, pretty energy."
+            content="Discover ARTISTS × A.I. from Laradise Studios."
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png"
           />
 
           {/* CANONICAL */}
@@ -119,7 +119,7 @@ const AI: React.FC = () => {
                 description:
                   "ARTISTS × A.I. introduces AI-powered digital artists from Laradise Studios, including TATI (LIVE), the First Lady of Laradise Studios.",
                 image:
-                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png",
+                  "https://res.cloudinary.com/louiy9obu/image/upload/v1763859000/artistsxai_laradisestudios.png",
                 member: [
                   {
                     "@type": "Person",
