@@ -56,7 +56,7 @@
 }
 
 .platform-apps-published h2 {
-  padding-top: 1em;
+  padding-top: 2em;
   text-transform: none;
   font-size: 1.2em;
   font-weight: bold;
@@ -890,10 +890,14 @@
 
 @media (min-width: 0px) and (max-width: 800px) {
 
+  .social-icons img {
+    z-index: 100;
+  }
+
   .social-icons a:hover img {
     transform: translateY(1px) scale(0.8);
     filter: drop-shadow(0 0 1px rgba(255, 4, 148, 0.7));
-    z-index: 5000;
+    z-index: 100;
   }
 
 
@@ -1032,6 +1036,7 @@
     justify-content: center;
     box-shadow: 1em 0.5em #00000052;
     padding-bottom: 2em;
+    z-index: 1000;
   }
 
   .ls-logo {
