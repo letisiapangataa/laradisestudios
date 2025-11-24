@@ -77,7 +77,7 @@ const AI: React.FC = () => {
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763883687/universexai_laradisestudios_ljump7.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763963541/universexai_laradisestudios.png"
           />
           <meta
             property="og:url"
@@ -96,7 +96,7 @@ const AI: React.FC = () => {
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763883687/universexai_laradisestudios_ljump7.png"
+            content="https://res.cloudinary.com/louiy9obu/image/upload/v1763963541/universexai_laradisestudios.png"
           />
 
           {/* CANONICAL */}
@@ -197,7 +197,7 @@ const AI: React.FC = () => {
           {/* Hero Visual */}
           <div className="flex items-center justify-center p-4">
             <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763879151/tatisworld_laradisestudios.png"
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763960916/tatinova_laradiseuniverse_m497kr.png"
               alt="PLANET x TATI NOVA"
               style={{
                 width: "50%",
@@ -206,7 +206,7 @@ const AI: React.FC = () => {
                 display: "block",
                 marginTop: "-6em",
                 marginBottom: "-6em",
-                paddingTop: "3em",
+                paddingTop: "4em",
                 paddingBottom: "4em"
               }}
             />
