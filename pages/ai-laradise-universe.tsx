@@ -200,9 +200,9 @@ const AI: React.FC = () => {
               src="https://res.cloudinary.com/louiy9obu/image/upload/v1763960916/tatinova_laradiseuniverse_m497kr.png"
               alt="PLANET x TATI NOVA"
               style={{
-                width: "50%",
+                width: "40%",
                 height: "auto",
-                maxWidth: "50%",
+                maxWidth: "40%",
                 display: "block",
                 marginTop: "-6em",
                 marginBottom: "-6em",
