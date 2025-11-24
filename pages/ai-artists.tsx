@@ -221,29 +221,33 @@ const AI: React.FC = () => {
               </p>
             </header>
 
-            <section className="pages-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">Powered by 💗</h2>
+           <section className="platform-apps-published mt-16 text-center">
+            <h2 className="text-4xl font-bold mb-6">Powered by 💗</h2>
 
-              <div className="flex items-center justify-center gap-10">
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
-                  alt="Listen to TATI (LIVE) from Laradise Studios on Spotify"
-                  className="h-14"
-                />
+            <div className="powered-icons">
+              {/* Spotify */}
+              <img
+                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
+                alt="Listen to TATI (LIVE) from Laradise Studios on Spotify"
+                className="powered-icon"
+              />
 
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
-                  alt="Stream Laradise Studios AI music on Apple Music"
-                  className="h-10"
-                />
+              {/* Apple Music */}
+              <img
+                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
+                alt="Stream Laradise Studios AI music on Apple Music"
+                className="powered-icon"
+              />
 
-                <img
-                  src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
-                  alt="Watch and listen to Laradise Studios releases on YouTube Music"
-                  className="h-14"
-                />
-              </div>
-            </section>
+              {/* YouTube Music */}
+              <img
+                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
+                alt="Watch and listen to Laradise Studios releases on YouTube Music"
+                className="powered-icon"
+              />
+            </div>
+          </section>
+
           </section>
 
           {/* Footer Section */}

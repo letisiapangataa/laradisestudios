@@ -26,6 +26,102 @@
 
 @media all {
 
+  /* Powered by 💗 Icons */
+  /* Platform Icons (Spotify / Apple Music / YouTube Music) */
+
+.platform-icons, .powered-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.platform-icon, .powered-icon  {
+  height: 500px; /* similar to h-14 */
+  width: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.platform-apps-published img {
+  width: 10em;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+}
+
+.platform-apps-published h2 {
+  padding-top: 1em;
+  text-transform: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: none;
+  font-family: "Outfit", sans-serif;
+}
+
+.platform-icon:hover, .powered-icon:hover {
+  transform: scale(1);
+}
+
+    /* Sidebar Link Hover Glow */
+  /* .li-menu,
+  .li-menu-sm {
+    transition: transform 0.2s ease, text-shadow 0.2s ease;
+    cursor: pointer;
+  } */
+
+  /* .li-menu:hover,
+  .li-menu-sm:hover {
+    transform: translateY(1px);
+  } */
+
+
+  .pages-apps-published {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9em;
+    padding-top: 2em;
+    margin-bottom: 4em;
+}
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icons img {
+    width: 34px;
+    height: 34px;
+    display: block;
+    object-fit: contain;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+  .social-icons a:hover img {
+    transform: translateY(1px) scale(0.8);
+    filter: drop-shadow(0 0 1px rgba(255, 4, 148, 0.7));
+  }
+
+
   /* Contact Form */
 
   .pages-header-contact {
@@ -633,18 +729,6 @@
     padding-top: 0em;
   }
 
-
-  .pages-apps-published {
-    width: 100%;
-    height: 400px; /* Adjust height as needed */
-    justify-content: center;
-    align-items: center;
-    z-index: 2000;
-     font-family: "Outfit", sans-serif;
-    font-size: 0.9em;
-    padding-top: 5em;
-  }
-
   .pages-apps-published-desc {
     width: 100%;
     height: 100px; /* Adjust height as needed */
@@ -679,7 +763,7 @@
   }
   
   .pages-apps-published img {
-    width: 180px; /* Resize the images to make them smaller */
+    width: 8.5em; /* Resize the images to make them smaller */
     height: auto; /* Maintain the aspect ratio */
   }
 
@@ -720,17 +804,6 @@
     font-size: 0.9em;
   }
 
-  .pages-apps-published {
-    width: 100%;
-    height: 300px; /* Adjust height as needed */
-    justify-content: center;
-    align-items: center;
-    z-index: 2000;
-     font-family: "Outfit", sans-serif;
-    font-size: 0.9em;
-    padding-top: 2em;
-  }
-
   .pages-apps-published-desc {
     width: 100%;
     height: 100px; /* Adjust height as needed */
@@ -754,7 +827,7 @@
     display: flex; /* Align items in a row */
     justify-content: center; /* Center the images horizontally */
     align-items: center; /* Center the images vertically */
-    gap: 3rem; /* Add spacing between the images */
+    gap: 1rem; /* Add spacing between the images */
   }
 
   .pages-apps-published-desc div {
@@ -765,7 +838,7 @@
   }
   
   .pages-apps-published img {
-    width: 180px; /* Resize the images to make them smaller */
+    width: 8.5em; /* Resize the images to make them smaller */
     height: auto; /* Maintain the aspect ratio */
   }
 
@@ -816,6 +889,71 @@
 /* Media Queries for smaller screens */
 
 @media (min-width: 0px) and (max-width: 800px) {
+
+  .social-icons a:hover img {
+    transform: translateY(1px) scale(0.8);
+    filter: drop-shadow(0 0 1px rgba(255, 4, 148, 0.7));
+    z-index: 5000;
+  }
+
+
+.platform-apps-published img {
+  width: 8em;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+}
+
+.powered-icons {
+  gap: 1.5rem;
+}
+
+.powered-icon {
+  height: 42px;
+}
+
+.powered-icon:hover {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 10px rgba(255, 4, 148, 0.55));
+}
+
+
+  .platform-icons {
+  gap: 1.5rem;
+}
+
+.platform-icon {
+  height: 42px; /* slightly smaller on mobile */
+}
+
+/* .platform-icon:hover {
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 10px rgba(255, 4, 148, 0.55));
+}
+
+
+    .li-menu:hover,
+  .li-menu-sm:hover {
+    transform: translateY(1px);
+    text-shadow: 0 0 1px rgba(255, 4, 148, 0.6);
+  } */
+
+
+    .social-icons {
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .social-icons img {
+    width: 26px;
+    height: 26px;
+  }
+
   
   .animate-fade-in {
     animation: fade-in 1s ease-in-out forwards;
@@ -999,6 +1137,17 @@
   font-family: "Outfit", sans-serif;
   z-index: 100;
 }
+
+  .platform-apps-published {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: "Outfit", sans-serif;
+    padding: 1em 3em 0em 3em;
+  }
+
   .pages-apps-published {
     width: 100%;
     height: 200px;
@@ -1019,7 +1168,7 @@
      font-family: "Outfit", sans-serif;
   }
   .pages-apps-published img {
-    width: 100px; /* Resize the images to make them smaller */
+    width: 3em; /* Resize the images to make them smaller */
     height: auto;
   }
   .pages-apps-published div {
@@ -1027,6 +1176,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
+    z-index: 2000;
   }
   .pages-header-games h1 {
     font-size: 1em;

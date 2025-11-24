@@ -224,17 +224,41 @@ const AI: React.FC = () => {
             <section className="pages-apps-published mt-16 text-center">
               <h2 className="text-4xl font-bold mb-6">@LARADISEUNIVERSE 🌑 // #LARADISEUNIVERSE 💫</h2>
 
-              <div className="flex items-center justify-center gap-10">
-                <a href="https://www.instagram.com/laradiseuniverse/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.tiktok.com/@laradiseuniverse" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-tiktok"></i>
-                </a>
-                <a href="https://x.com/laradiseuniverse" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </div>
+              <div className="social-icons flex items-center justify-center gap-10">
+  <a
+    href="https://www.instagram.com/laradiseuniverse/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/instagram-2_kuuijl.png"
+      alt="Laradise Studios Instagram"
+    />
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@laradiseuniverse"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965357/tiktok_thnxbl.png"
+      alt="Laradise Studios TikTok"
+    />
+  </a>
+
+  <a
+    href="https://x.com/laradiseuniverse"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/twitter_rwwu1f.png"
+      alt="Laradise Studios X (Twitter)"
+    />
+  </a>
+</div>
+
             </section>
           </section>
 
