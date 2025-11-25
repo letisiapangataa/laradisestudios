@@ -248,7 +248,7 @@ const AI: React.FC = () => {
   </a>
 
   <a
-    href="https://x.com/laradiseuniverse"
+    href="https://x.com/laradiverse"
     target="_blank"
     rel="noopener noreferrer"
   >

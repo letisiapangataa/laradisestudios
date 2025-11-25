@@ -675,7 +675,6 @@
     align-items: center;
     font-size: 1em;
     font-family: "Outfit", sans-serif;
-    z-index: 2000;
   }
 
   .pages-apps-slideshow {
@@ -921,10 +920,10 @@
   height: 42px;
 }
 
-.powered-icon:hover {
+/* .powered-icon:hover {
   transform: scale(1.08);
   filter: drop-shadow(0 0 10px rgba(255, 4, 148, 0.55));
-}
+} */
 
 
   .platform-icons {
@@ -1129,7 +1128,6 @@
     font-family: "Outfit", sans-serif;
   }
   .pages-footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
