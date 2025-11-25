@@ -81,7 +81,7 @@ export default function Home() {
 
         <div className="my-16 text-center animate-fade-in">
         <h2 className="ls-copyright">
-            © 2025 Laradise Studios Ltd.
+            © 2025 Laradise Studios Limited.
         </h2>
     </div>
     </>

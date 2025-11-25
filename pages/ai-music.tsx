@@ -240,7 +240,7 @@ const AI: React.FC = () => {
 
           {/* Footer Section */}
           <footer className="pages-footer text-center py-2 bg-gray-800 text-white">
-            <p>© 2025 Laradise Studios. All Rights Reserved.</p>
+            <p>© 2025 Laradise Studios Limited. All Rights Reserved.</p>
           </footer>
         </main>
       </div>
