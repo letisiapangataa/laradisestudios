@@ -997,7 +997,7 @@
     height: 100%;
     inset: 0;
     animation: fade-in; /* You need to define 'fade-in' animation separately */
-    z-index: 0;
+    z-index: -10000;
 }
 
   .sidebar-icon {
