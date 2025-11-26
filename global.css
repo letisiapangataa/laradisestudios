@@ -26,6 +26,16 @@
 
 @media all {
 
+    .ls-copyright {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255);
+    text-shadow: 3px 2px #00000052;
+    font-size: 1.3em;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    margin-bottom: 1.5em;
+  }
+
   /* Powered by 💗 Icons */
   /* Platform Icons (Spotify / Apple Music / YouTube Music) */
 
@@ -91,7 +101,7 @@
     font-family: "Outfit", sans-serif;
     font-size: 0.9em;
     padding-top: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
   .social-icons {
@@ -233,7 +243,7 @@
     height: 100%;
     inset: 0;
     animation: fade-in; /* You need to define 'fade-in' animation separately */
-    z-index: 0;
+    z-index: -10000;
 }
 
   .sidebar-icon {
