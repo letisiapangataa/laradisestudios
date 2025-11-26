@@ -28,7 +28,7 @@ export default function Home() {
       Instagram
     </a>
     {" x "}
-    <a href="https://www.linkedin.com/company/laradisestudios" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/company/laradise-studios" target="_blank" rel="noopener noreferrer">
       LinkedIn
     </a>
     {" x "}
