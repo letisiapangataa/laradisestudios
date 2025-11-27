@@ -171,6 +171,11 @@ const AI: React.FC = () => {
             </li>
             <li className="li-menu">☁️ 💗 ☁️</li>
             <li className="li-menu-sm">
+              <Link href="/legal/laradise-studios-legal-document.txt" target="_blank">
+                Terms & Policies
+              </Link>
+            </li>
+            <li className="li-menu-sm">
               <Link href="mailto:contact@laradisestudios.com">Contact Us</Link>
             </li>
             <SocialIcons />
@@ -252,7 +257,9 @@ const AI: React.FC = () => {
 
           {/* Footer Section */}
           <footer className="pages-footer text-center py-2 bg-gray-800 text-white">
-            <p>© 2025 Laradise Studios Limited. All Rights Reserved.</p>
+            <p>© 2025 Laradise Studios Limited. All Rights Reserved. <Link href="/legal/laradise-studios-legal-document.txt" target="_blank" rel="noopener noreferrer">
+                Terms & Policies.</Link>
+            </p>
           </footer>
         </main>
       </div>

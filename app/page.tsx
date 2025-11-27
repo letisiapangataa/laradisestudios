@@ -57,6 +57,11 @@ export default function Home() {
           ☁️ 💗 ☁️
         </li>
         <li className="li-menu-sm">
+          <Link href="/legal/laradise-studios-legal-document.txt" target="_blank">
+            Terms & Policies
+          </Link>
+        </li>
+        <li className="li-menu-sm">
           <Link href="mailto:contact@laradisestudios.com">
             Contact Us
           </Link>
@@ -81,7 +86,8 @@ export default function Home() {
 
         <div className="my-16 text-center animate-fade-in">
         <h2 className="ls-copyright">
-            © 2025 Laradise Studios Limited.
+            © 2025 Laradise Studios Limited. <p></p>All Rights Reserved. <Link href="/legal/laradise-studios-legal-document.txt" target="_blank" rel="noopener noreferrer">
+                Terms & Policies.</Link>
         </h2>
     </div>
     </>

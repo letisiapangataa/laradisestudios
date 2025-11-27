@@ -1,0 +1,206 @@
+LARADISE STUDIOS — CORPORATE LEGAL DISCLOSURE
+Last Updated: November 2025
+
+============================================================
+1. PRIVACY POLICY
+============================================================
+Laradise Studios (“Laradise”, “we”, “our”, “us”) is a creative technology and digital media organisation specialising in AI-assisted content creation, digital product development, multimedia design, and entertainment IP. This Privacy Policy outlines how we collect, process, store, and safeguard personal information across our web platforms, digital products, communication channels, and associated services.
+
+1.1 INFORMATION WE COLLECT
+We may collect the following categories of data:
+- Identity Information: name, email address, and relevant identifiers.
+- Technical Data: IP address, device information, browser type, system logs.
+- Usage Data: pages visited, interaction patterns, session duration.
+- Cookies and Tracking Data: functional, analytical, and embed-related cookies.
+- Content Inputs: user submissions, contact form messages, prompt-based inputs.
+- Application Data: analytics and behaviour data from future Laradise Studios applications.
+
+1.2 PURPOSES OF DATA PROCESSING
+We process data for legitimate business purposes including:
+- Service delivery and platform optimisation
+- Product improvement and UX enhancement
+- Compliance with legal and regulatory obligations
+- Customer and stakeholder communication
+- Security monitoring and fraud prevention
+- Internal research and development
+
+1.3 DATA SHARING AND THIRD-PARTY SERVICES
+Data may be shared with:
+- Cloud hosting and analytics providers
+- Security and infrastructure vendors
+- Embedded platforms (Spotify, YouTube, TikTok, Instagram)
+- Legal and regulatory authorities when required
+
+Laradise Studios does not sell personal data.
+
+1.4 DATA RETENTION
+We retain information only for as long as is necessary to fulfil operational, legal, and regulatory requirements.
+
+1.5 USER RIGHTS
+Depending on jurisdiction, users may request:
+- Access to their personal data
+- Correction or deletion
+- Restriction of processing
+- Objection to marketing activities
+- Data portability (where applicable)
+
+1.6 CONTACT
+Privacy enquiries: legal@laradisestudios.com
+
+
+============================================================
+2. TERMS OF SERVICE
+============================================================
+These Terms govern access to and use of Laradise Studios’ website, products, digital assets, and online services. By accessing our materials, you acknowledge and agree to comply with these Terms.
+
+2.1 INTELLECTUAL PROPERTY OWNERSHIP
+All creative and technical assets published by Laradise Studios—including characters (such as TATI, Kai), digital worlds, audio compositions, AI-assisted artwork, software components, branding, and textual content—are the exclusive property of Laradise Studios.
+
+Unauthorised reproduction, modification, distribution, commercial exploitation, or data extraction is strictly prohibited.
+
+2.2 ACCEPTABLE USE REQUIREMENTS
+Users must not:
+- Disrupt or interfere with the site’s operation
+- Perform automated scraping, data harvesting, or model training using our content
+- Upload harmful, illegal, or infringing materials
+- Attempt unauthorised access to restricted systems or infrastructure
+
+2.3 AI-GENERATED CONTENT
+AI-assisted content is developed under human creative oversight. Laradise maintains all IP rights and ownership associated with final outputs.
+
+2.4 THIRD-PARTY PLATFORMS
+Embedded or linked third-party content is governed by the terms and policies of their respective operators. Laradise is not responsible for their accuracy, performance, or availability.
+
+2.5 LIMITATION OF LIABILITY
+Laradise Studios will not be liable for losses relating to:
+- Service interruptions or technical failures
+- Third-party platform outages
+- Misuse or misinterpretation of creative content
+- Data breaches beyond our reasonable control
+
+2.6 AMENDMENTS
+We may revise these Terms. Continued use constitutes acceptance.
+
+Contact: legal@laradisestudios.com
+
+
+============================================================
+3. COPYRIGHT & INTELLECTUAL PROPERTY NOTICE
+============================================================
+© Laradise Studios. All Rights Reserved.
+
+The following IP categories are protected:
+- Characters, personas, and story worlds (e.g., TATI, Kai, Laradise Universe planets)
+- Artwork, 3D models, AI-assisted visuals, design systems
+- Music, lyrics, compositions, and sound design
+- Corporate branding, trademarks, logos, typography
+- User experience, interface design, motion graphics
+- Website structure, written content, and proprietary code
+
+Prohibited uses include:
+- Repurposing for derivative works
+- Commercial exploitation without licence
+- Uploading Laradise assets into AI training datasets
+- Unauthorised reproduction across any medium
+
+Licensing enquiries: licensing@laradisestudios.com
+
+
+============================================================
+4. COOKIE POLICY
+============================================================
+Laradise Studios uses cookies for:
+- Functional site operations
+- Performance analytics
+- Embedded content tracking
+- Security monitoring
+
+Users may disable cookies in browser settings or through on-site controls where available.
+
+
+============================================================
+5. DMCA / COPYRIGHT COMPLIANCE PROCESS
+============================================================
+To submit a copyright infringement notification, contact dmca@laradisestudios.com including:
+- Full legal name and contact information
+- Description of copyrighted work
+- URL(s) of alleged infringement
+- Good-faith declaration
+- Digital signature
+
+Counter-notifications follow the same address.
+
+
+============================================================
+6. AI USE & ETHICAL GOVERNANCE STATEMENT
+============================================================
+Laradise Studios adopts responsible AI practices aligned with industry standards.
+
+Our commitments include:
+- Human-led creative and editorial oversight
+- Ethical deployment of AI tools
+- Avoidance of biometric or sensitive data usage
+- Protection of individual likeness and identity
+- Respect for intellectual property boundaries
+- Transparent communication regarding AI-generated media
+
+We do not train machine learning models using personal user data.
+
+
+============================================================
+7. USER-GENERATED CONTENT (UGC) GOVERNANCE
+============================================================
+Users must ensure all submissions:
+- Are legally permissible
+- Do not infringe third-party rights
+- Do not contain harmful, defamatory, or malicious content
+- Do not introduce security risks
+
+Laradise reserves the right to moderate, remove, restrict, or refuse content at its discretion.
+
+Users retain ownership but grant Laradise a non-exclusive licence for display and operational purposes.
+
+
+============================================================
+8. MEDIA, MUSIC, AND VISUAL LICENSING TERMS
+============================================================
+Permitted (Personal Use):
+- Sharing Laradise content with attribution
+- Using Laradise-distributed audio on social platforms via official libraries
+
+Prohibited (Without Written Agreement):
+- Commercial video production using Laradise IP
+- Merchandise, apparel, or promotional goods
+- Visual or character-based advertising
+- Music remixes, transformations, or derivatives
+- NFT or blockchain-related usage
+
+For commercial agreements: licensing@laradisestudios.com
+
+
+============================================================
+9. ACCESSIBILITY STATEMENT
+============================================================
+Laradise Studios is committed to accessibility and aims to align with WCAG 2.1 AA standards. We are actively working to optimise accessibility across all digital properties.
+
+Accessibility concerns: accessibility@laradisestudios.com
+
+
+============================================================
+10. CORPORATE DISCLAIMERS
+============================================================
+AI & Creative Disclaimer  
+Some materials incorporate AI-assisted techniques, governed by human creative direction.
+
+Music & Media Disclaimer  
+Official music releases are distributed only through authorised platforms.
+
+External Content Disclaimer  
+Laradise is not responsible for third-party websites, content, or availability.
+
+--------------------------------------------
+For all legal enquiries, contact:  
+legal@laradisestudios.com
+--------------------------------------------
+
+This document applies to all products, services, websites, media, and creative IP owned or operated by Laradise Studios Limited.
