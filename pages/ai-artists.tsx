@@ -226,32 +226,45 @@ const AI: React.FC = () => {
               </p>
             </header>
 
-           <section className="platform-apps-published mt-16 text-center">
-            <h2 className="text-4xl font-bold mb-6">Powered by 💗</h2>
+        <section className="pages-apps-published mt-16 text-center">
+              <h2 className="text-4xl font-bold mb-6">@TATI.LARADISE 💗 // #TATI 💫</h2>
 
-            <div className="powered-icons">
-              {/* Spotify */}
-              <img
-                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
-                alt="Listen to TATI (LIVE) from Laradise Studios on Spotify"
-                className="powered-icon"
-              />
+              <div className="social-icons flex items-center justify-center gap-10">
+  <a
+    href="https://www.instagram.com/tati.laradise/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/instagram-2_kuuijl.png"
+      alt="TATI x Laradise Studios Instagram"
+    />
+  </a>
 
-              {/* Apple Music */}
-              <img
-                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
-                alt="Stream Laradise Studios AI music on Apple Music"
-                className="powered-icon"
-              />
+  <a
+    href="https://www.tiktok.com/@tati.laradise/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965357/tiktok_thnxbl.png"
+      alt="TATI x Laradise Studios TikTok"
+    />
+  </a>
 
-              {/* YouTube Music */}
-              <img
-                src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
-                alt="Watch and listen to Laradise Studios releases on YouTube Music"
-                className="powered-icon"
-              />
-            </div>
-          </section>
+  <a
+    href="https://x.com/tatilaradise"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/twitter_rwwu1f.png"
+      alt="TATI x Laradise Studios X (Twitter)"
+    />
+  </a>
+</div>
+
+            </section>
 
           </section>
 
