@@ -227,7 +227,7 @@ const AI: React.FC = () => {
             </header>
 
         <section className="pages-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">@TATI.LARADISE 💗 // #TATI 💫</h2>
+              <h2 className="text-4xl font-bold mb-6">@TATI.LARADISE 💗 // @TATI.LARADISESTUDIOS 💫</h2>
 
               <div className="social-icons flex items-center justify-center gap-10">
   <a
@@ -242,7 +242,7 @@ const AI: React.FC = () => {
   </a>
 
   <a
-    href="https://www.tiktok.com/@tati.laradise/"
+    href="https://www.tiktok.com/@tati.laradisestudios/"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -296,7 +296,7 @@ const AI: React.FC = () => {
             </header>
 
         <section className="pages-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">@KAYO.LARADISE ⚡ // #KAYO 💫</h2>
+              <h2 className="text-4xl font-bold mb-6">@KAYO.LARADISE ⚡ // @KAYO.LARADISESTUDIOS 💫</h2>
 
               <div className="social-icons flex items-center justify-center gap-10">
   <a
@@ -311,7 +311,7 @@ const AI: React.FC = () => {
   </a>
 
   <a
-    href="https://www.tiktok.com/@kayo.laradise/"
+    href="https://www.tiktok.com/@kayo.laradisestudios/"
     target="_blank"
     rel="noopener noreferrer"
   >
