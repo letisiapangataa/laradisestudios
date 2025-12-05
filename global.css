@@ -514,6 +514,16 @@
     padding: 0em 5em 0em 5em;
     line-height: 2em;
 }
+.pages-header-apps-uni {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    font-family: "Outfit", sans-serif;
+    padding: 0em 5em 5em 5em;
+    line-height: 2em;
+}
 
   .pages-header-apps h1 {
     font-size: 2em;
@@ -522,6 +532,15 @@
     text-align: center;
     padding: 1em;
   }
+
+  .pages-header-apps-uni h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 1em;
+  }
+
 
   .pages-header h1 {
     font-size: 2em;
@@ -1137,6 +1156,14 @@
     padding-bottom: 1em;
     font-family: "Outfit", sans-serif;
   }
+  .pages-header-apps-uni h1 {
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 1em;
+    font-family: "Outfit", sans-serif;
+  }
   .pages-footer {
   bottom: 0;
   left: 0;
@@ -1178,6 +1205,15 @@
     align-items: center;
     z-index: 2000;
     padding: 0em 3em 0em 3em;
+     font-family: "Outfit", sans-serif;
+  }
+  .pages-header-apps-uni {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    padding: 0em 3em 3em 3em;
      font-family: "Outfit", sans-serif;
   }
   .pages-apps-published img {

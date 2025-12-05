@@ -218,24 +218,21 @@ const AI: React.FC = () => {
             </header>
 
             <section className="platform-apps-published mt-16 text-center">
-              <h2 className="text-4xl font-bold mb-6">Available Soon</h2>
+              <h2 className="text-4xl font-bold mb-6">Available Platforms</h2>
 
               <div className="platform-icons">
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763367730/Spotify_logo_with_text_rzpgoa.svg"
-                  alt="Laradise Studios AI music coming soon to Spotify"
                   className="platform-icon"
                 />
 
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368214/Apple_Music_Logo_0_uayzbu.svg"
-                  alt="Laradise Studios AI music coming soon to Apple Music"
                   className="platform-icon"
                 />
 
                 <img
                   src="https://res.cloudinary.com/louiy9obu/image/upload/v1763368511/youtube-music-seeklogo_kjf1v2.svg"
-                  alt="Laradise Studios AI music coming soon to YouTube Music"
                   className="platform-icon"
                 />
               </div>

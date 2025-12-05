@@ -211,7 +211,7 @@ const AI: React.FC = () => {
                 display: "block",
                 marginTop: "-6em",
                 marginBottom: "-6em",
-                paddingTop: "4em",
+                paddingTop: "5em",
                 paddingBottom: "4em"
               }}
             />
@@ -224,6 +224,36 @@ const AI: React.FC = () => {
               <h1 className="text-4xl font-bold">PLANET x TATI NOVA</h1>
               <p className="pages-sub-title">The Origin World of Heart Energy.</p>
                <p className="pages-sub-title"><b>Artists: </b>TATI (Tati Novian)</p>
+            </header>
+          </section>
+
+
+
+          {/* Hero Visual */}
+          <div className="flex items-center justify-center p-4">
+            <img
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1764918857/KAYOS_PLANET_LARADISE_UNIVERSE_crlige.png"
+              alt="PLANET x KAYOS"
+              style={{
+                width: "40%",
+                height: "auto",
+                maxWidth: "40%",
+                display: "block",
+                marginTop: "-6em",
+                marginBottom: "-6em",
+                paddingTop: "10em",
+                paddingBottom: "6em"
+              }}
+            />
+          </div>
+
+          <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* KAYO – AI Artist Block */}
+            <header className="pages-header-apps-uni">
+              {/* h2 to keep a clean hierarchy under the main h1 */}
+              <h1 className="text-4xl font-bold">PLANET x KAYOS</h1>
+              <p className="pages-sub-title">The Origin Realm of Kinetic Sound.</p>
+               <p className="pages-sub-title"><b>Artists: </b>KAYO (Kayostic)</p>
             </header>
 
             <section className="pages-apps-published mt-16 text-center">
@@ -266,6 +296,7 @@ const AI: React.FC = () => {
 
             </section>
           </section>
+
 
           {/* Footer Section */}
           <footer className="pages-footer text-center py-2 bg-gray-800 text-white">

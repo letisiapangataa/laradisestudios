@@ -202,8 +202,8 @@ const AI: React.FC = () => {
           {/* Hero Visual */}
           <div className="flex items-center justify-center p-4">
             <img
-              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/ChatGPT_Image_Nov_19_2025_at_05_00_13_PM_ulqota.png"
-              alt="DJ Tati, an AI-powered Laradise Studios artist."
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763524874/TATI_AVATAR.png"
+              alt="TATI, an AI-powered Laradise Studios artist."
               style={{
                 width: "40%",
                 height: "auto",
@@ -222,7 +222,7 @@ const AI: React.FC = () => {
               <h1 className="text-4xl font-bold">TATI (LIVE)</h1>
               <p className="pages-sub-title">The heartbeat of the Laradise Universe.</p>
               <p className="pages-sub-title">
-                &quot;Where emotion becomes sound.&quot;
+                &quot;Pretty beats, pretty energy.&quot;
               </p>
             </header>
 
@@ -260,6 +260,75 @@ const AI: React.FC = () => {
     <img
       src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/twitter_rwwu1f.png"
       alt="TATI x Laradise Studios X (Twitter)"
+    />
+  </a>
+</div>
+
+            </section>
+
+          </section>
+
+                    {/* Hero Visual */}
+          <div className="flex items-center justify-center p-4">
+            <img
+              src="https://res.cloudinary.com/louiy9obu/image/upload/v1763524904/KAYO_AVATAR.png"
+              alt="KAYO, an AI-powered Laradise Studios artist."
+              style={{
+                width: "40%",
+                height: "auto",
+                maxWidth: "40%",
+                paddingTop: "2em",
+                display: "block",
+                margin: "0 auto",
+              }}
+            />
+          </div>
+
+          <section className="apps-showcase grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* KAYO – AI Artist Block */}
+            <header className="pages-header-apps">
+              {/* h2 to keep a clean hierarchy under the main h1 */}
+              <h1 className="text-4xl font-bold">KAYO (LIVE)</h1>
+              <p className="pages-sub-title">The electric energy of the Laradise Universe.</p>
+              <p className="pages-sub-title">
+                &quot;Sounds built for motion.&quot;
+              </p>
+            </header>
+
+        <section className="pages-apps-published mt-16 text-center">
+              <h2 className="text-4xl font-bold mb-6">@KAYO.LARADISE ⚡ // #KAYO 💫</h2>
+
+              <div className="social-icons flex items-center justify-center gap-10">
+  <a
+    href="https://www.instagram.com/kayo.laradise/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/instagram-2_kuuijl.png"
+      alt="KAYO x Laradise Studios Instagram"
+    />
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@kayo.laradise/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965357/tiktok_thnxbl.png"
+      alt="KAYO x Laradise Studios TikTok"
+    />
+  </a>
+
+  <a
+    href="https://x.com/kayolaradise"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://res.cloudinary.com/louiy9obu/image/upload/v1763965358/twitter_rwwu1f.png"
+      alt="KAYO x Laradise Studios X (Twitter)"
     />
   </a>
 </div>
